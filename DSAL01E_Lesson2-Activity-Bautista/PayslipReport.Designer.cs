@@ -1,4 +1,4 @@
-﻿namespace PrelimExam2
+﻿namespace DSAL01E_Lesson2_Activity_Bautista
 {
     partial class PayslipReport
     {

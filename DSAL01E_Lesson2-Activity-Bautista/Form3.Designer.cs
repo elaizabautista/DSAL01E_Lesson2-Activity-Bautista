@@ -1,4 +1,4 @@
-﻿namespace Lesson3_Exercises
+﻿namespace DSAL01E_Lesson2_Activity_Bautista
 {
     partial class Form3
     {
@@ -202,15 +202,16 @@
             this.cascadToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.cascadToolStripMenuItem.Text = "Cascade";
             // 
-            // Form1
+            // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(936, 359);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "Form3";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

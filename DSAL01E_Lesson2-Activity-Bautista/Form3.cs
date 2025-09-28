@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lesson3_Exercises
+namespace DSAL01E_Lesson2_Activity_Bautista
 {
     public partial class Form3 : Form
     {
@@ -23,6 +23,11 @@ namespace Lesson3_Exercises
         }
 
         private void humanResourcesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
         {
 
         }

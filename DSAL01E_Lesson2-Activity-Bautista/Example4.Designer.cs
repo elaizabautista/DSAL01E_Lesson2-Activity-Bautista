@@ -1,4 +1,4 @@
-﻿namespace Lesson3_Exercises
+﻿namespace DSAL01E_Lesson2_Activity_Bautista
 {
     partial class Example4
     {
@@ -870,7 +870,7 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Image = global::Lesson3_Exercises.Properties.Resources.Bacon_Cheeseburger_Pizza;
+            this.pictureBox16.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Bacon_Cheeseburger_Pizza;
             this.pictureBox16.Location = new System.Drawing.Point(563, 516);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(130, 108);
@@ -880,7 +880,7 @@
             // 
             // pictureBox17
             // 
-            this.pictureBox17.Image = global::Lesson3_Exercises.Properties.Resources.BBQ_Chicken_Pizza;
+            this.pictureBox17.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.BBQ_Chicken_Pizza;
             this.pictureBox17.Location = new System.Drawing.Point(427, 516);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(130, 108);
@@ -890,7 +890,7 @@
             // 
             // pictureBox18
             // 
-            this.pictureBox18.Image = global::Lesson3_Exercises.Properties.Resources.Breakfast_Pizza;
+            this.pictureBox18.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Breakfast_Pizza;
             this.pictureBox18.Location = new System.Drawing.Point(291, 517);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(130, 108);
@@ -900,7 +900,7 @@
             // 
             // pictureBox19
             // 
-            this.pictureBox19.Image = global::Lesson3_Exercises.Properties.Resources.Buffalo_Chicken_Pizza;
+            this.pictureBox19.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Buffalo_Chicken_Pizza;
             this.pictureBox19.Location = new System.Drawing.Point(155, 516);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(130, 108);
@@ -910,7 +910,7 @@
             // 
             // pictureBox20
             // 
-            this.pictureBox20.Image = global::Lesson3_Exercises.Properties.Resources.Four_Cheese_Pizza;
+            this.pictureBox20.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Four_Cheese_Pizza;
             this.pictureBox20.Location = new System.Drawing.Point(19, 517);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(130, 108);
@@ -920,7 +920,7 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Image = global::Lesson3_Exercises.Properties.Resources.Hawaiian_Pizza;
+            this.pictureBox11.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Hawaiian_Pizza;
             this.pictureBox11.Location = new System.Drawing.Point(563, 351);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(130, 108);
@@ -930,7 +930,7 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = global::Lesson3_Exercises.Properties.Resources.Margherita_Pizza;
+            this.pictureBox12.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Margherita_Pizza;
             this.pictureBox12.Location = new System.Drawing.Point(427, 351);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(130, 108);
@@ -940,7 +940,7 @@
             // 
             // pictureBox13
             // 
-            this.pictureBox13.Image = global::Lesson3_Exercises.Properties.Resources.Meat_Lovers_Pizza;
+            this.pictureBox13.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Meat_Lovers_Pizza;
             this.pictureBox13.Location = new System.Drawing.Point(291, 352);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(130, 108);
@@ -950,7 +950,7 @@
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Image = global::Lesson3_Exercises.Properties.Resources.Mexican_Taco_Pizza;
+            this.pictureBox14.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Mexican_Taco_Pizza;
             this.pictureBox14.Location = new System.Drawing.Point(155, 351);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(130, 108);
@@ -960,7 +960,7 @@
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Image = global::Lesson3_Exercises.Properties.Resources.Mushroom_Lovers_Pizza;
+            this.pictureBox15.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Mushroom_Lovers_Pizza;
             this.pictureBox15.Location = new System.Drawing.Point(19, 352);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(130, 108);
@@ -970,7 +970,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::Lesson3_Exercises.Properties.Resources.Pepperoni_Pizza;
+            this.pictureBox6.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Pepperoni_Pizza;
             this.pictureBox6.Location = new System.Drawing.Point(563, 194);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(130, 108);
@@ -980,7 +980,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::Lesson3_Exercises.Properties.Resources.Pesto_Chicken_Pizza;
+            this.pictureBox7.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Pesto_Chicken_Pizza;
             this.pictureBox7.Location = new System.Drawing.Point(427, 194);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(130, 108);
@@ -990,7 +990,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::Lesson3_Exercises.Properties.Resources.Philly_Cheesesteak_Pizza;
+            this.pictureBox8.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Philly_Cheesesteak_Pizza;
             this.pictureBox8.Location = new System.Drawing.Point(291, 195);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(130, 108);
@@ -1000,7 +1000,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = global::Lesson3_Exercises.Properties.Resources.Sausage_and_Peppers_Pizza;
+            this.pictureBox9.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Sausage_and_Peppers_Pizza;
             this.pictureBox9.Location = new System.Drawing.Point(155, 194);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(130, 108);
@@ -1010,7 +1010,7 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::Lesson3_Exercises.Properties.Resources.Shrimp_Scampi_Pizza;
+            this.pictureBox10.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Shrimp_Scampi_Pizza;
             this.pictureBox10.Location = new System.Drawing.Point(19, 195);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(130, 108);
@@ -1020,7 +1020,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Lesson3_Exercises.Properties.Resources.Spinach_and_Feta_Pizza;
+            this.pictureBox5.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Spinach_and_Feta_Pizza;
             this.pictureBox5.Location = new System.Drawing.Point(563, 31);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(130, 108);
@@ -1030,7 +1030,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Lesson3_Exercises.Properties.Resources.Supreme_Pizza;
+            this.pictureBox4.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Supreme_Pizza;
             this.pictureBox4.Location = new System.Drawing.Point(427, 31);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(130, 108);
@@ -1040,7 +1040,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Lesson3_Exercises.Properties.Resources.Truffle_Mushroom_Pizza;
+            this.pictureBox3.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Truffle_Mushroom_Pizza;
             this.pictureBox3.Location = new System.Drawing.Point(291, 32);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(130, 108);
@@ -1050,7 +1050,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Lesson3_Exercises.Properties.Resources.Veggie_Supreme_Pizza;
+            this.pictureBox2.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.Veggie_Supreme_Pizza;
             this.pictureBox2.Location = new System.Drawing.Point(155, 31);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(130, 108);
@@ -1060,7 +1060,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Lesson3_Exercises.Properties.Resources.White_Pizza;
+            this.pictureBox1.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.White_Pizza;
             this.pictureBox1.Location = new System.Drawing.Point(19, 32);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(130, 108);
