@@ -1,5 +1,5 @@
-﻿namespace Lesson3_Exercises
-{
+﻿namespace DSAL01E_Lesson2_Activity_Bautista
+
     partial class Example2
     {
         /// <summary>
@@ -150,7 +150,7 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.BackgroundImage = global::Lesson3_Exercises.Properties.Resources._2e5ed7a03c1399634d33ae43d502dac7;
+            this.groupBox5.BackgroundImage = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources._2e5ed7a03c1399634d33ae43d502dac7;
             this.groupBox5.Controls.Add(this.name10lbl);
             this.groupBox5.Controls.Add(this.name9lbl);
             this.groupBox5.Controls.Add(this.name8lbl);
@@ -424,7 +424,7 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Image = global::Lesson3_Exercises.Properties.Resources.a16;
+            this.pictureBox16.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.a16;
             this.pictureBox16.Location = new System.Drawing.Point(836, 664);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(200, 156);
@@ -435,7 +435,7 @@
             // 
             // pictureBox17
             // 
-            this.pictureBox17.Image = global::Lesson3_Exercises.Properties.Resources.a18;
+            this.pictureBox17.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.a18;
             this.pictureBox17.Location = new System.Drawing.Point(630, 664);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(200, 156);
@@ -446,7 +446,7 @@
             // 
             // pictureBox18
             // 
-            this.pictureBox18.Image = global::Lesson3_Exercises.Properties.Resources.a17;
+            this.pictureBox18.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.a17;
             this.pictureBox18.Location = new System.Drawing.Point(424, 664);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(200, 156);
@@ -457,7 +457,7 @@
             // 
             // pictureBox19
             // 
-            this.pictureBox19.Image = global::Lesson3_Exercises.Properties.Resources.a191;
+            this.pictureBox19.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.a19;
             this.pictureBox19.Location = new System.Drawing.Point(218, 664);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(200, 156);
@@ -468,7 +468,7 @@
             // 
             // pictureBox20
             // 
-            this.pictureBox20.Image = global::Lesson3_Exercises.Properties.Resources.a20;
+            this.pictureBox20.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.a20;
             this.pictureBox20.Location = new System.Drawing.Point(12, 664);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(200, 156);
@@ -480,7 +480,7 @@
             // 
             // rolly
             // 
-            this.rolly.Image = global::Lesson3_Exercises.Properties.Resources.rolly_pasta;
+            this.rolly.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.rolly_pasta;
             this.rolly.Location = new System.Drawing.Point(837, 449);
             this.rolly.Margin = new System.Windows.Forms.Padding(4);
             this.rolly.Name = "rolly";
@@ -492,7 +492,7 @@
             // 
             // carbonara
             // 
-            this.carbonara.Image = global::Lesson3_Exercises.Properties.Resources.parmesan_chicken_pasta;
+            this.carbonara.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.parmesan_chicken_pasta;
             this.carbonara.Location = new System.Drawing.Point(424, 449);
             this.carbonara.Margin = new System.Windows.Forms.Padding(4);
             this.carbonara.Name = "carbonara";
@@ -504,7 +504,7 @@
             // 
             // parmesan
             // 
-            this.parmesan.Image = global::Lesson3_Exercises.Properties.Resources.carbonara_pasta;
+            this.parmesan.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.carbonara_pasta;
             this.parmesan.Location = new System.Drawing.Point(632, 449);
             this.parmesan.Margin = new System.Windows.Forms.Padding(4);
             this.parmesan.Name = "parmesan";
@@ -516,7 +516,7 @@
             // 
             // spaghetti
             // 
-            this.spaghetti.Image = global::Lesson3_Exercises.Properties.Resources.spaghetti;
+            this.spaghetti.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.spaghetti;
             this.spaghetti.Location = new System.Drawing.Point(220, 449);
             this.spaghetti.Margin = new System.Windows.Forms.Padding(4);
             this.spaghetti.Name = "spaghetti";
@@ -528,7 +528,7 @@
             // 
             // pesto
             // 
-            this.pesto.Image = global::Lesson3_Exercises.Properties.Resources.pesto_pasta;
+            this.pesto.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.pesto_pasta;
             this.pesto.Location = new System.Drawing.Point(12, 449);
             this.pesto.Margin = new System.Windows.Forms.Padding(4);
             this.pesto.Name = "pesto";
@@ -540,7 +540,7 @@
             // 
             // chocolatecorissants
             // 
-            this.chocolatecorissants.Image = global::Lesson3_Exercises.Properties.Resources.chocolatecroissants;
+            this.chocolatecorissants.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.chocolatecroissants;
             this.chocolatecorissants.Location = new System.Drawing.Point(835, 239);
             this.chocolatecorissants.Margin = new System.Windows.Forms.Padding(4);
             this.chocolatecorissants.Name = "chocolatecorissants";
@@ -552,7 +552,7 @@
             // 
             // mochacake
             // 
-            this.mochacake.Image = global::Lesson3_Exercises.Properties.Resources.mocha_cake;
+            this.mochacake.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.mocha_cake;
             this.mochacake.Location = new System.Drawing.Point(630, 239);
             this.mochacake.Margin = new System.Windows.Forms.Padding(4);
             this.mochacake.Name = "mochacake";
@@ -564,7 +564,7 @@
             // 
             // cheesecake
             // 
-            this.cheesecake.Image = global::Lesson3_Exercises.Properties.Resources.cheesecake;
+            this.cheesecake.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.cheesecake;
             this.cheesecake.Location = new System.Drawing.Point(424, 239);
             this.cheesecake.Margin = new System.Windows.Forms.Padding(4);
             this.cheesecake.Name = "cheesecake";
@@ -576,7 +576,7 @@
             // 
             // carrotcake
             // 
-            this.carrotcake.Image = global::Lesson3_Exercises.Properties.Resources.carrot_cake;
+            this.carrotcake.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.carrot_cake;
             this.carrotcake.Location = new System.Drawing.Point(218, 239);
             this.carrotcake.Margin = new System.Windows.Forms.Padding(4);
             this.carrotcake.Name = "carrotcake";
@@ -588,7 +588,7 @@
             // 
             // strawberryshortcake
             // 
-            this.strawberryshortcake.Image = global::Lesson3_Exercises.Properties.Resources.strawberry_shortcake;
+            this.strawberryshortcake.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.strawberry_shortcake;
             this.strawberryshortcake.Location = new System.Drawing.Point(10, 239);
             this.strawberryshortcake.Margin = new System.Windows.Forms.Padding(4);
             this.strawberryshortcake.Name = "strawberryshortcake";
@@ -600,7 +600,7 @@
             // 
             // mocha
             // 
-            this.mocha.Image = global::Lesson3_Exercises.Properties.Resources.mocha;
+            this.mocha.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.mocha;
             this.mocha.Location = new System.Drawing.Point(838, 22);
             this.mocha.Margin = new System.Windows.Forms.Padding(4);
             this.mocha.Name = "mocha";
@@ -612,7 +612,7 @@
             // 
             // latte
             // 
-            this.latte.Image = global::Lesson3_Exercises.Properties.Resources.latte;
+            this.latte.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.latte;
             this.latte.Location = new System.Drawing.Point(632, 22);
             this.latte.Margin = new System.Windows.Forms.Padding(4);
             this.latte.Name = "latte";
@@ -624,7 +624,7 @@
             // 
             // milkshake
             // 
-            this.milkshake.Image = global::Lesson3_Exercises.Properties.Resources.milkshake;
+            this.milkshake.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.milkshake;
             this.milkshake.Location = new System.Drawing.Point(424, 22);
             this.milkshake.Margin = new System.Windows.Forms.Padding(4);
             this.milkshake.Name = "milkshake";
@@ -636,7 +636,7 @@
             // 
             // cortado
             // 
-            this.cortado.Image = global::Lesson3_Exercises.Properties.Resources.cortado;
+            this.cortado.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.cortado;
             this.cortado.Location = new System.Drawing.Point(220, 22);
             this.cortado.Margin = new System.Windows.Forms.Padding(4);
             this.cortado.Name = "cortado";
@@ -649,7 +649,7 @@
             // americano
             // 
             this.americano.BackColor = System.Drawing.Color.Sienna;
-            this.americano.Image = global::Lesson3_Exercises.Properties.Resources.americano;
+            this.americano.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.americano;
             this.americano.Location = new System.Drawing.Point(14, 22);
             this.americano.Margin = new System.Windows.Forms.Padding(4);
             this.americano.Name = "americano";
@@ -1261,7 +1261,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Lesson3_Exercises.Properties.Resources._2e5ed7a03c1399634d33ae43d502dac7;
+            this.BackgroundImage = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources._2e5ed7a03c1399634d33ae43d502dac7;
             this.ClientSize = new System.Drawing.Size(1831, 960);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);

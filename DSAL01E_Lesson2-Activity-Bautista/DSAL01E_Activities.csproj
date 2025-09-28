@@ -130,6 +130,18 @@
     <Compile Include="PayslipReport.Designer.cs">
       <DependentUpon>PayslipReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="PrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintForm.Designer.cs">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintForm2.Designer.cs">
+      <DependentUpon>PrintForm2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Activity1.resx">
@@ -174,14 +186,21 @@
     <EmbeddedResource Include="PayslipReport.resx">
       <DependentUpon>PayslipReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PrintForm.resx">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintForm2.resx">
+      <DependentUpon>PrintForm2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -269,70 +288,7 @@
     <None Include="Images\White Pizza.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\2e5ed7a03c1399634d33ae43d502dac7.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\a16.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\a17.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\a18.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\a19.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\a191.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\a20.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\americano.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\carbonara pasta.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\carrot cake.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cheesecake.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chocolatecroissants.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cortado.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\latte.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\milkshake.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mocha cake.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mocha.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\parmesan chicken pasta.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pesto pasta.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\rolly pasta.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\spaghetti.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\strawberry shortcake.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources2forActivities123\2e5ed7a03c1399634d33ae43d502dac7.jpg" />
@@ -420,6 +376,159 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources2forActivities123\strawberry shortcake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2e5ed7a03c1399634d33ae43d502dac7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\americano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bacon Cheeseburger Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BBQ Chicken Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Breakfast Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buffalo Chicken Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carbonara pasta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrot cake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocolatecroissants.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffeeebg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cortado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default-avatar-icon-of-social-media-user-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Four Cheese Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hawaiian Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\latte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Margherita Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meat Lovers Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mexican Taco Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milkshake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mocha cake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mocha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mushroom Lovers Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parmesan chicken pasta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pepperoni Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pesto Chicken Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pesto pasta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Philly Cheesesteak Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rolly pasta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sausage and Peppers Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shrimp Scampi Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spaghetti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spinach and Feta Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strawberry shortcake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Supreme Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Truffle Mushroom Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Veggie Supreme Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheesecake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

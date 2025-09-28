@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace POS_Application_Bautista
+namespace DSAL01E_Lesson2_Activity_Bautista
 {
     public partial class Activity1 : Form
     {

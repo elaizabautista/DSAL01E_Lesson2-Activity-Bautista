@@ -155,7 +155,6 @@
             this.label1.Size = new System.Drawing.Size(520, 34);
             this.label1.TabIndex = 0;
             this.label1.Text = "KKoppi & Co. – Café • Cakes • Pasta";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -167,7 +166,6 @@
             this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "label2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -180,7 +178,6 @@
             this.label3.Size = new System.Drawing.Size(137, 19);
             this.label3.TabIndex = 3;
             this.label3.Text = "By: Elaiza Bautista";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -193,12 +190,11 @@
             this.label4.Size = new System.Drawing.Size(102, 19);
             this.label4.TabIndex = 4;
             this.label4.Text = "Terminal #21";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.BackgroundImage = global::POS_Application_Bautista.Properties.Resources.final;
+            this.groupBox1.BackgroundImage = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.final;
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button2);
@@ -363,7 +359,7 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.BackgroundImage = global::POS_Application_Bautista.Properties.Resources.final;
+            this.groupBox2.BackgroundImage = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.final;
             this.groupBox2.Controls.Add(this.discounted_totaltxtbox);
             this.groupBox2.Controls.Add(this.discount_totaltxtbox);
             this.groupBox2.Controls.Add(this.qty_totaltxtbox);
@@ -438,7 +434,7 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox3.BackgroundImage = global::POS_Application_Bautista.Properties.Resources.final;
+            this.groupBox3.BackgroundImage = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.final;
             this.groupBox3.Controls.Add(this.changetxtbox);
             this.groupBox3.Controls.Add(this.textBox9);
             this.groupBox3.Controls.Add(this.label34);
@@ -495,7 +491,7 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox4.BackgroundImage = global::POS_Application_Bautista.Properties.Resources.final;
+            this.groupBox4.BackgroundImage = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.final;
             this.groupBox4.Controls.Add(this.button19);
             this.groupBox4.Controls.Add(this.button20);
             this.groupBox4.Controls.Add(this.button18);
@@ -698,7 +694,7 @@
             // americano
             // 
             this.americano.BackColor = System.Drawing.Color.Sienna;
-            this.americano.Image = global::POS_Application_Bautista.Properties.Resources.americano1;
+            this.americano.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.americano;
             this.americano.Location = new System.Drawing.Point(14, 22);
             this.americano.Margin = new System.Windows.Forms.Padding(4);
             this.americano.Name = "americano";
@@ -709,7 +705,7 @@
             // 
             // cortado
             // 
-            this.cortado.Image = global::POS_Application_Bautista.Properties.Resources.cortado;
+            this.cortado.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.cortado;
             this.cortado.Location = new System.Drawing.Point(220, 22);
             this.cortado.Margin = new System.Windows.Forms.Padding(4);
             this.cortado.Name = "cortado";
@@ -720,7 +716,7 @@
             // 
             // milkshake
             // 
-            this.milkshake.Image = global::POS_Application_Bautista.Properties.Resources.milkshake;
+            this.milkshake.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.milkshake;
             this.milkshake.Location = new System.Drawing.Point(424, 22);
             this.milkshake.Margin = new System.Windows.Forms.Padding(4);
             this.milkshake.Name = "milkshake";
@@ -731,7 +727,7 @@
             // 
             // latte
             // 
-            this.latte.Image = global::POS_Application_Bautista.Properties.Resources.latte;
+            this.latte.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.latte;
             this.latte.Location = new System.Drawing.Point(632, 22);
             this.latte.Margin = new System.Windows.Forms.Padding(4);
             this.latte.Name = "latte";
@@ -742,7 +738,7 @@
             // 
             // mocha
             // 
-            this.mocha.Image = global::POS_Application_Bautista.Properties.Resources.mocha;
+            this.mocha.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.mocha;
             this.mocha.Location = new System.Drawing.Point(838, 22);
             this.mocha.Margin = new System.Windows.Forms.Padding(4);
             this.mocha.Name = "mocha";
@@ -753,7 +749,7 @@
             // 
             // strawberryshortcake
             // 
-            this.strawberryshortcake.Image = global::POS_Application_Bautista.Properties.Resources.strawberry_shortcake;
+            this.strawberryshortcake.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.strawberry_shortcake;
             this.strawberryshortcake.Location = new System.Drawing.Point(10, 239);
             this.strawberryshortcake.Margin = new System.Windows.Forms.Padding(4);
             this.strawberryshortcake.Name = "strawberryshortcake";
@@ -764,7 +760,7 @@
             // 
             // carrotcake
             // 
-            this.carrotcake.Image = global::POS_Application_Bautista.Properties.Resources.carrot_cake;
+            this.carrotcake.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.carrot_cake;
             this.carrotcake.Location = new System.Drawing.Point(218, 239);
             this.carrotcake.Margin = new System.Windows.Forms.Padding(4);
             this.carrotcake.Name = "carrotcake";
@@ -775,7 +771,7 @@
             // 
             // cheesecake
             // 
-            this.cheesecake.Image = global::POS_Application_Bautista.Properties.Resources.cheesecake2;
+            this.cheesecake.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.cheesecake;
             this.cheesecake.Location = new System.Drawing.Point(424, 239);
             this.cheesecake.Margin = new System.Windows.Forms.Padding(4);
             this.cheesecake.Name = "cheesecake";
@@ -786,7 +782,7 @@
             // 
             // mochacake
             // 
-            this.mochacake.Image = global::POS_Application_Bautista.Properties.Resources.mocha_cake;
+            this.mochacake.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.mocha_cake;
             this.mochacake.Location = new System.Drawing.Point(630, 239);
             this.mochacake.Margin = new System.Windows.Forms.Padding(4);
             this.mochacake.Name = "mochacake";
@@ -797,7 +793,7 @@
             // 
             // chocolatecorissants
             // 
-            this.chocolatecorissants.Image = global::POS_Application_Bautista.Properties.Resources.chocolatecroissants;
+            this.chocolatecorissants.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.chocolatecroissants;
             this.chocolatecorissants.Location = new System.Drawing.Point(835, 239);
             this.chocolatecorissants.Margin = new System.Windows.Forms.Padding(4);
             this.chocolatecorissants.Name = "chocolatecorissants";
@@ -808,7 +804,7 @@
             // 
             // pesto
             // 
-            this.pesto.Image = global::POS_Application_Bautista.Properties.Resources.pesto_pasta;
+            this.pesto.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.pesto_pasta;
             this.pesto.Location = new System.Drawing.Point(12, 449);
             this.pesto.Margin = new System.Windows.Forms.Padding(4);
             this.pesto.Name = "pesto";
@@ -819,7 +815,7 @@
             // 
             // spaghetti
             // 
-            this.spaghetti.Image = global::POS_Application_Bautista.Properties.Resources.spaghetti;
+            this.spaghetti.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.spaghetti;
             this.spaghetti.Location = new System.Drawing.Point(220, 449);
             this.spaghetti.Margin = new System.Windows.Forms.Padding(4);
             this.spaghetti.Name = "spaghetti";
@@ -830,7 +826,7 @@
             // 
             // parmesan
             // 
-            this.parmesan.Image = global::POS_Application_Bautista.Properties.Resources.parmesan_chicken_pasta;
+            this.parmesan.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.parmesan_chicken_pasta;
             this.parmesan.Location = new System.Drawing.Point(426, 449);
             this.parmesan.Margin = new System.Windows.Forms.Padding(4);
             this.parmesan.Name = "parmesan";
@@ -841,7 +837,7 @@
             // 
             // carbonara
             // 
-            this.carbonara.Image = global::POS_Application_Bautista.Properties.Resources.carbonara_pasta;
+            this.carbonara.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.carbonara_pasta;
             this.carbonara.Location = new System.Drawing.Point(629, 449);
             this.carbonara.Margin = new System.Windows.Forms.Padding(4);
             this.carbonara.Name = "carbonara";
@@ -852,7 +848,7 @@
             // 
             // rolly
             // 
-            this.rolly.Image = global::POS_Application_Bautista.Properties.Resources.rolly_pasta;
+            this.rolly.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.rolly_pasta;
             this.rolly.Location = new System.Drawing.Point(837, 449);
             this.rolly.Margin = new System.Windows.Forms.Padding(4);
             this.rolly.Name = "rolly";
@@ -863,7 +859,7 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.BackgroundImage = global::POS_Application_Bautista.Properties.Resources.final;
+            this.groupBox5.BackgroundImage = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.final;
             this.groupBox5.Controls.Add(this.name10lbl);
             this.groupBox5.Controls.Add(this.name9lbl);
             this.groupBox5.Controls.Add(this.name8lbl);
@@ -912,7 +908,6 @@
             this.groupBox5.TabIndex = 39;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Items Display";
-            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
             // name10lbl
             // 
@@ -1185,7 +1180,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackgroundImage = global::POS_Application_Bautista.Properties.Resources.final;
+            this.BackgroundImage = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.final;
             this.ClientSize = new System.Drawing.Size(1610, 889);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);

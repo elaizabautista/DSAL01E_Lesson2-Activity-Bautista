@@ -1,4 +1,4 @@
-﻿namespace POS_Application_Bautista
+﻿namespace DSAL01E_Lesson2_Activity_Bautista
 {
     partial class Activity3
     {
