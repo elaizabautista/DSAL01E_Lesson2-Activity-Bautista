@@ -64,7 +64,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::Lesson3_Exercises.Properties.Resources.default_avatar_icon_of_social_media_user_vector;
+            this.pictureBox1.Image = global::DSAL01E_Lesson2_Activity_Bautista.Properties.Resources.default_avatar_icon_of_social_media_user_vector;
             this.pictureBox1.Location = new System.Drawing.Point(174, 44);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(171, 145);

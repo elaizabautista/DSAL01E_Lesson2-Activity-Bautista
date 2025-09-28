@@ -16,7 +16,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Activity1());
+            Application.Run(new Example2());
         }
     }
 }
