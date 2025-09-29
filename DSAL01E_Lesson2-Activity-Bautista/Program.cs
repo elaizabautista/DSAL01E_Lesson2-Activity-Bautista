@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lesson3_Exercises;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Example2());
+            Application.Run(new Login());
         }
     }
 }

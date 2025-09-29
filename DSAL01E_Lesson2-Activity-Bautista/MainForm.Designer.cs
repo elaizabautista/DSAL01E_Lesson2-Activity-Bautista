@@ -1,6 +1,6 @@
 ﻿namespace DSAL01E_Lesson2_Activity_Bautista
 {
-    partial class Form3
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -78,24 +78,23 @@
             this.pOSCashierToolStripMenuItem.Name = "pOSCashierToolStripMenuItem";
             this.pOSCashierToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.pOSCashierToolStripMenuItem.Text = "POS Cashier";
-            this.pOSCashierToolStripMenuItem.Click += new System.EventHandler(this.pOSCashierToolStripMenuItem_Click);
             // 
             // jeePOSIncToolStripMenuItem
             // 
             this.jeePOSIncToolStripMenuItem.Name = "jeePOSIncToolStripMenuItem";
-            this.jeePOSIncToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.jeePOSIncToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
             this.jeePOSIncToolStripMenuItem.Text = "4Jee POS Inc.";
             // 
             // jEEPOSOrderingToolStripMenuItem
             // 
             this.jEEPOSOrderingToolStripMenuItem.Name = "jEEPOSOrderingToolStripMenuItem";
-            this.jEEPOSOrderingToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.jEEPOSOrderingToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
             this.jEEPOSOrderingToolStripMenuItem.Text = "4JEE POS Ordering";
             // 
             // logoutToolStripMenuItem
             // 
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
             this.logoutToolStripMenuItem.Text = "Logout";
             // 
             // pOSAdministratorToolStripMenuItem
@@ -172,7 +171,6 @@
             this.humanResourcesToolStripMenuItem.Name = "humanResourcesToolStripMenuItem";
             this.humanResourcesToolStripMenuItem.Size = new System.Drawing.Size(141, 24);
             this.humanResourcesToolStripMenuItem.Text = "Human Resources";
-            this.humanResourcesToolStripMenuItem.Click += new System.EventHandler(this.humanResourcesToolStripMenuItem_Click);
             // 
             // windowToolStripMenuItem
             // 
@@ -202,16 +200,15 @@
             this.cascadToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.cascadToolStripMenuItem.Text = "Cascade";
             // 
-            // Form3
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(936, 359);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form3";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form3_Load);
+            this.Name = "MainForm";
+            this.Text = "MainForm";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -221,25 +218,25 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem pOSCashierToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jeePOSIncToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jEEPOSOrderingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pOSAdministratorToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jeePOSIncToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem jeePOSOrderingToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem userAccountToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem userAccountPageToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem payrolToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem payrolApplicationToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem employeeInformationToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem employeeInformationPageToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem userAccountToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem humanResourcesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem windowToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tileVerticalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tileHorizontalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cascadToolStripMenuItem;
+        public System.Windows.Forms.MenuStrip menuStrip1;
+        public System.Windows.Forms.ToolStripMenuItem pOSCashierToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem jeePOSIncToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem jEEPOSOrderingToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem pOSAdministratorToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem jeePOSIncToolStripMenuItem1;
+        public System.Windows.Forms.ToolStripMenuItem jeePOSOrderingToolStripMenuItem1;
+        public System.Windows.Forms.ToolStripMenuItem userAccountToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem userAccountPageToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem payrolToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem payrolApplicationToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem employeeInformationToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem employeeInformationPageToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem userAccountToolStripMenuItem1;
+        public System.Windows.Forms.ToolStripMenuItem humanResourcesToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem windowToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem tileVerticalToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem tileHorizontalToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem cascadToolStripMenuItem;
     }
 }

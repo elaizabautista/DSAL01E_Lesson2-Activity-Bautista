@@ -118,7 +118,7 @@
             this.label1.ForeColor = System.Drawing.Color.DeepPink;
             this.label1.Location = new System.Drawing.Point(172, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(658, 83);
+            this.label1.Size = new System.Drawing.Size(635, 79);
             this.label1.TabIndex = 0;
             this.label1.Text = "Seri\'s Choice Payroll";
             // 
@@ -958,7 +958,7 @@
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "Lesson5_Activity";
-            this.Text = "Form1";
+            this.Text = "Payrol";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
