@@ -100,12 +100,12 @@ namespace DSAL01E_Lesson2_Activity_Bautista
 
         private void pOSCashierToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            //
         }
 
         private void toolStripLabel1_Click(object sender, EventArgs e)
         {
-
+            //
         }
     }
 }
