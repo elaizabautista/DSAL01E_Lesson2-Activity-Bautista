@@ -153,6 +153,16 @@ namespace DSAL01E_Lesson2_Activity_Bautista.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap b131 {
+            get {
+                object obj = ResourceManager.GetObject("b131", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap b2 {
             get {
                 object obj = ResourceManager.GetObject("b2", resourceCulture);

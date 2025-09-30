@@ -563,5 +563,8 @@
   <ItemGroup>
     <None Include="Resources\default-avatar-icon-of-social-media-user-vector1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b131.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
