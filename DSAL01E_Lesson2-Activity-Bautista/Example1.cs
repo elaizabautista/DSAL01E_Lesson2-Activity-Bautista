@@ -89,5 +89,10 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             //Converting the numeric value reside inside the variables and display it in a textbox
             displayTxtbox.Text = quotient.ToString("n");
         }
+
+        private void Example1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

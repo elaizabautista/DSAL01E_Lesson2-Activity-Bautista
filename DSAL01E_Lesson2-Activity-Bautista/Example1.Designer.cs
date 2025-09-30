@@ -211,6 +211,7 @@
             this.Name = "Example1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Example1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

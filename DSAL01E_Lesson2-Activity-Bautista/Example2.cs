@@ -332,5 +332,10 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             // show the print form
             print.Show();
         }
+
+        private void Example2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
