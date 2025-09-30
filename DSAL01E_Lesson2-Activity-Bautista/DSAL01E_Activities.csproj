@@ -97,6 +97,12 @@
     <Compile Include="Example5.Designer.cs">
       <DependentUpon>Example5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Example6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example6.Designer.cs">
+      <DependentUpon>Example6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +145,12 @@
     <Compile Include="PayslipReport.Designer.cs">
       <DependentUpon>PayslipReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="PrintExample6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintExample6.Designer.cs">
+      <DependentUpon>PrintExample6.cs</DependentUpon>
+    </Compile>
     <Compile Include="PrintForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +189,9 @@
     <EmbeddedResource Include="Example5.resx">
       <DependentUpon>Example5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Example6.resx">
+      <DependentUpon>Example6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -197,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PayslipReport.resx">
       <DependentUpon>PayslipReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintExample6.resx">
+      <DependentUpon>PrintExample6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintForm.resx">
       <DependentUpon>PrintForm.cs</DependentUpon>
@@ -541,6 +559,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default-avatar-icon-of-social-media-user-vector1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

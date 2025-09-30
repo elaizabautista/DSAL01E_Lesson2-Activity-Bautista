@@ -188,7 +188,7 @@
             this.QUOTIENT.UseVisualStyleBackColor = false;
             this.QUOTIENT.Click += new System.EventHandler(this.QUOTIENT_Click);
             // 
-            // Form1
+            // Example1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -208,8 +208,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
-            this.Name = "Form1";
+            this.Name = "Example1";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

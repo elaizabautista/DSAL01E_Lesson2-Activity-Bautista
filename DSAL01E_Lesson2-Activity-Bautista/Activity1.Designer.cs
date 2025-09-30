@@ -324,7 +324,7 @@
             this.americano.TabStop = false;
             this.americano.Click += new System.EventHandler(this.americano_Click);
             // 
-            // Form1
+            // Activity1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -353,8 +353,9 @@
             this.Controls.Add(this.cortado);
             this.Controls.Add(this.americano);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "Activity1";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.rolly)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.carbonara)).EndInit();

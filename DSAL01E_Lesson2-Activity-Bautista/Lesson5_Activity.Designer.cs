@@ -959,6 +959,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "Lesson5_Activity";
             this.Text = "Payrol";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

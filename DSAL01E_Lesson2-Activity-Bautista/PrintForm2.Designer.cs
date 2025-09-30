@@ -40,7 +40,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(520, 34);
+            this.label1.Size = new System.Drawing.Size(478, 31);
             this.label1.TabIndex = 41;
             this.label1.Text = "KKoppi & Co. – Café • Cakes • Pasta";
             // 
@@ -63,6 +63,7 @@
             this.Controls.Add(this.label1);
             this.Name = "PrintForm2";
             this.Text = "PrintForm2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

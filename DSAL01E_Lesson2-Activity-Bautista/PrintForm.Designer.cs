@@ -63,6 +63,7 @@
             this.Controls.Add(this.Listbox1);
             this.Name = "PrintForm";
             this.Text = "PrintForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

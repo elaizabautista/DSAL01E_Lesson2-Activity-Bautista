@@ -128,6 +128,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "If_Sample2";
             this.Text = "If_Sample2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

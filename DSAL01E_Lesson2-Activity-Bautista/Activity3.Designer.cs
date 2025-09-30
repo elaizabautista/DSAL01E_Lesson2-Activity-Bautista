@@ -68,7 +68,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(27, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(699, 47);
+            this.label1.Size = new System.Drawing.Size(685, 45);
             this.label1.TabIndex = 1;
             this.label1.Text = "4JEE Food Ordering Application";
             // 
@@ -92,7 +92,7 @@
             this.foodBRdtn.ForeColor = System.Drawing.Color.Transparent;
             this.foodBRdtn.Location = new System.Drawing.Point(34, 86);
             this.foodBRdtn.Name = "foodBRdtn";
-            this.foodBRdtn.Size = new System.Drawing.Size(139, 27);
+            this.foodBRdtn.Size = new System.Drawing.Size(136, 27);
             this.foodBRdtn.TabIndex = 3;
             this.foodBRdtn.TabStop = true;
             this.foodBRdtn.Text = "Food Bundle B";
@@ -104,7 +104,7 @@
             this.foodARdbtn.ForeColor = System.Drawing.Color.Transparent;
             this.foodARdbtn.Location = new System.Drawing.Point(34, 43);
             this.foodARdbtn.Name = "foodARdbtn";
-            this.foodARdbtn.Size = new System.Drawing.Size(141, 27);
+            this.foodARdbtn.Size = new System.Drawing.Size(138, 27);
             this.foodARdbtn.TabIndex = 2;
             this.foodARdbtn.TabStop = true;
             this.foodARdbtn.Text = "Food Bundle A";
@@ -234,7 +234,7 @@
             this.A_SpecialPizzaCheckbox.ForeColor = System.Drawing.Color.Snow;
             this.A_SpecialPizzaCheckbox.Location = new System.Drawing.Point(42, 211);
             this.A_SpecialPizzaCheckbox.Name = "A_SpecialPizzaCheckbox";
-            this.A_SpecialPizzaCheckbox.Size = new System.Drawing.Size(187, 25);
+            this.A_SpecialPizzaCheckbox.Size = new System.Drawing.Size(184, 25);
             this.A_SpecialPizzaCheckbox.TabIndex = 5;
             this.A_SpecialPizzaCheckbox.Text = "Special Pizza Delights";
             this.A_SpecialPizzaCheckbox.UseVisualStyleBackColor = true;
@@ -246,7 +246,7 @@
             this.A_CokeCheckBox.ForeColor = System.Drawing.Color.Snow;
             this.A_CokeCheckBox.Location = new System.Drawing.Point(42, 126);
             this.A_CokeCheckBox.Name = "A_CokeCheckBox";
-            this.A_CokeCheckBox.Size = new System.Drawing.Size(91, 25);
+            this.A_CokeCheckBox.Size = new System.Drawing.Size(88, 25);
             this.A_CokeCheckBox.TabIndex = 4;
             this.A_CokeCheckBox.Text = "1.5 Coke";
             this.A_CokeCheckBox.UseVisualStyleBackColor = true;
@@ -258,7 +258,7 @@
             this.A_FriesCheckBox.ForeColor = System.Drawing.Color.Snow;
             this.A_FriesCheckBox.Location = new System.Drawing.Point(42, 86);
             this.A_FriesCheckBox.Name = "A_FriesCheckBox";
-            this.A_FriesCheckBox.Size = new System.Drawing.Size(122, 25);
+            this.A_FriesCheckBox.Size = new System.Drawing.Size(119, 25);
             this.A_FriesCheckBox.TabIndex = 3;
             this.A_FriesCheckBox.Text = "2 Large Fries";
             this.A_FriesCheckBox.UseVisualStyleBackColor = true;
@@ -270,7 +270,7 @@
             this.A_sideDishCheckBox.ForeColor = System.Drawing.Color.Snow;
             this.A_sideDishCheckBox.Location = new System.Drawing.Point(42, 167);
             this.A_sideDishCheckBox.Name = "A_sideDishCheckBox";
-            this.A_sideDishCheckBox.Size = new System.Drawing.Size(126, 25);
+            this.A_sideDishCheckBox.Size = new System.Drawing.Size(123, 25);
             this.A_sideDishCheckBox.TabIndex = 3;
             this.A_sideDishCheckBox.Text = "4 Side Dishes";
             this.A_sideDishCheckBox.UseVisualStyleBackColor = true;
@@ -282,7 +282,7 @@
             this.A_FriedChickencheckBox.ForeColor = System.Drawing.Color.Snow;
             this.A_FriedChickencheckBox.Location = new System.Drawing.Point(42, 45);
             this.A_FriedChickencheckBox.Name = "A_FriedChickencheckBox";
-            this.A_FriedChickencheckBox.Size = new System.Drawing.Size(253, 25);
+            this.A_FriedChickencheckBox.Size = new System.Drawing.Size(250, 25);
             this.A_FriedChickencheckBox.TabIndex = 2;
             this.A_FriedChickencheckBox.Text = "10 pcs. Delicious Fried Chicken";
             this.A_FriedChickencheckBox.UseVisualStyleBackColor = true;
@@ -311,7 +311,7 @@
             this.B_HawaiiancheckBox.ForeColor = System.Drawing.Color.Snow;
             this.B_HawaiiancheckBox.Location = new System.Drawing.Point(42, 214);
             this.B_HawaiiancheckBox.Name = "B_HawaiiancheckBox";
-            this.B_HawaiiancheckBox.Size = new System.Drawing.Size(220, 25);
+            this.B_HawaiiancheckBox.Size = new System.Drawing.Size(217, 25);
             this.B_HawaiiancheckBox.TabIndex = 10;
             this.B_HawaiiancheckBox.Text = "1 Medium Hawaiian Pizza";
             this.B_HawaiiancheckBox.UseVisualStyleBackColor = true;
@@ -323,7 +323,7 @@
             this.B_Friescheckbox.ForeColor = System.Drawing.Color.Snow;
             this.B_Friescheckbox.Location = new System.Drawing.Point(42, 170);
             this.B_Friescheckbox.Name = "B_Friescheckbox";
-            this.B_Friescheckbox.Size = new System.Drawing.Size(169, 25);
+            this.B_Friescheckbox.Size = new System.Drawing.Size(166, 25);
             this.B_Friescheckbox.TabIndex = 8;
             this.B_Friescheckbox.Text = "1 Family Pack Fries";
             this.B_Friescheckbox.UseVisualStyleBackColor = true;
@@ -335,7 +335,7 @@
             this.B_carbonaracheckBox.ForeColor = System.Drawing.Color.Snow;
             this.B_carbonaracheckBox.Location = new System.Drawing.Point(42, 129);
             this.B_carbonaracheckBox.Name = "B_carbonaracheckBox";
-            this.B_carbonaracheckBox.Size = new System.Drawing.Size(210, 25);
+            this.B_carbonaracheckBox.Size = new System.Drawing.Size(207, 25);
             this.B_carbonaracheckBox.TabIndex = 9;
             this.B_carbonaracheckBox.Text = "1 Family Pack Carbonara";
             this.B_carbonaracheckBox.UseVisualStyleBackColor = true;
@@ -347,7 +347,7 @@
             this.B_halohalocheckBox.ForeColor = System.Drawing.Color.Snow;
             this.B_halohalocheckBox.Location = new System.Drawing.Point(42, 48);
             this.B_halohalocheckBox.Name = "B_halohalocheckBox";
-            this.B_halohalocheckBox.Size = new System.Drawing.Size(267, 25);
+            this.B_halohalocheckBox.Size = new System.Drawing.Size(264, 25);
             this.B_halohalocheckBox.TabIndex = 6;
             this.B_halohalocheckBox.Text = "4 cups Special Halo Halo Regular";
             this.B_halohalocheckBox.UseVisualStyleBackColor = true;
@@ -359,7 +359,7 @@
             this.B_Chickencheckbox.ForeColor = System.Drawing.Color.Snow;
             this.B_Chickencheckbox.Location = new System.Drawing.Point(42, 89);
             this.B_Chickencheckbox.Name = "B_Chickencheckbox";
-            this.B_Chickencheckbox.Size = new System.Drawing.Size(245, 25);
+            this.B_Chickencheckbox.Size = new System.Drawing.Size(242, 25);
             this.B_Chickencheckbox.TabIndex = 7;
             this.B_Chickencheckbox.Text = "6 pcs. Delicious Fried Chicken";
             this.B_Chickencheckbox.UseVisualStyleBackColor = true;
@@ -377,6 +377,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Activity3";
             this.Text = "Form3";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Activity3_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

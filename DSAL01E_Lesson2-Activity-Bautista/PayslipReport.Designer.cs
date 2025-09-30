@@ -106,7 +106,7 @@
             this.label1.ForeColor = System.Drawing.Color.LavenderBlush;
             this.label1.Location = new System.Drawing.Point(422, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(486, 60);
+            this.label1.Size = new System.Drawing.Size(465, 57);
             this.label1.TabIndex = 1;
             this.label1.Text = "Seri\'s Choice Payroll";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -874,6 +874,7 @@
             this.Controls.Add(this.groupBox8);
             this.Name = "PayslipReport";
             this.Text = "PayslipReport";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);

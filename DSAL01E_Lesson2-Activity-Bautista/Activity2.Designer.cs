@@ -152,7 +152,7 @@
             this.label1.ForeColor = System.Drawing.Color.RosyBrown;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(520, 34);
+            this.label1.Size = new System.Drawing.Size(478, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "KKoppi & Co. – Café • Cakes • Pasta";
             // 
@@ -216,7 +216,6 @@
             this.groupBox1.TabIndex = 35;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "-";
-
             // 
             // button4
             // 
@@ -1193,6 +1192,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Activity2";
             this.Text = "Form2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form2_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

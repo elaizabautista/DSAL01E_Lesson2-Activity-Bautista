@@ -307,7 +307,7 @@
             this.name1lbl.ForeColor = System.Drawing.Color.Snow;
             this.name1lbl.Location = new System.Drawing.Point(53, 178);
             this.name1lbl.Name = "name1lbl";
-            this.name1lbl.Size = new System.Drawing.Size(124, 29);
+            this.name1lbl.Size = new System.Drawing.Size(119, 28);
             this.name1lbl.TabIndex = 60;
             this.name1lbl.Text = "Midnight Brew";
             this.name1lbl.UseCompatibleTextRendering = true;
@@ -1026,7 +1026,7 @@
             this.noTaxRdbtn.AutoSize = true;
             this.noTaxRdbtn.Location = new System.Drawing.Point(409, 155);
             this.noTaxRdbtn.Name = "noTaxRdbtn";
-            this.noTaxRdbtn.Size = new System.Drawing.Size(101, 20);
+            this.noTaxRdbtn.Size = new System.Drawing.Size(98, 20);
             this.noTaxRdbtn.TabIndex = 17;
             this.noTaxRdbtn.TabStop = true;
             this.noTaxRdbtn.Text = "No Discount";
@@ -1038,7 +1038,7 @@
             this.EmployeeRdbtn.AutoSize = true;
             this.EmployeeRdbtn.Location = new System.Drawing.Point(409, 122);
             this.EmployeeRdbtn.Name = "EmployeeRdbtn";
-            this.EmployeeRdbtn.Size = new System.Drawing.Size(123, 20);
+            this.EmployeeRdbtn.Size = new System.Drawing.Size(120, 20);
             this.EmployeeRdbtn.TabIndex = 16;
             this.EmployeeRdbtn.TabStop = true;
             this.EmployeeRdbtn.Text = "Employee Disc.";
@@ -1050,7 +1050,7 @@
             this.regularRbtn.AutoSize = true;
             this.regularRbtn.Location = new System.Drawing.Point(409, 88);
             this.regularRbtn.Name = "regularRbtn";
-            this.regularRbtn.Size = new System.Drawing.Size(119, 20);
+            this.regularRbtn.Size = new System.Drawing.Size(116, 20);
             this.regularRbtn.TabIndex = 15;
             this.regularRbtn.TabStop = true;
             this.regularRbtn.Text = "With Disc. Card";
@@ -1062,7 +1062,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(409, 56);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(109, 20);
+            this.radioButton1.Size = new System.Drawing.Size(106, 20);
             this.radioButton1.TabIndex = 14;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Senior Citizen";
@@ -1253,7 +1253,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(130, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(520, 34);
+            this.label1.Size = new System.Drawing.Size(478, 31);
             this.label1.TabIndex = 40;
             this.label1.Text = "KKoppi & Co. – Café • Cakes • Pasta";
             // 
@@ -1274,6 +1274,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Example2";
             this.Text = "Form2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
