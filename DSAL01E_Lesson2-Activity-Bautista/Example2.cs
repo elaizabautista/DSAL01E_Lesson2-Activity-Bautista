@@ -175,140 +175,140 @@ namespace DSAL01E_Lesson2_Activity_Bautista
 
         private void americano_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = "Midnight Brew";
             pricetextbox.Text = "120.90";
         }
 
         private void cortado_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = "Velvet Sumrise";
             pricetextbox.Text = "150";
         }
 
         private void milkshake_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = "Creamy Chill Shake";
             pricetextbox.Text = "180.90";
         }
 
         private void latte_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name4lbl.Text;
             pricetextbox.Text = "200";
         }
 
         private void mocha_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name5lbl.Text;
             pricetextbox.Text = "220.50";
         }
 
         private void strawberryshortcake_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name6lbl.Text;
             pricetextbox.Text = "250.05";
         }
 
         private void carrotcake_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name7lbl.Text;
             pricetextbox.Text = "300.45";
         }
 
         private void cheesecake_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name8lbl.Text;
             pricetextbox.Text = "350.30";
         }
 
         private void mochacake_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name9lbl.Text;
             pricetextbox.Text = "400.40";
         }
 
         private void chocolatecorissants_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name10lbl.Text;
             pricetextbox.Text = "450.50";
         }
 
         private void pesto_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name11lbl.Text;
             pricetextbox.Text = "300.45";
         }
 
         private void spaghetti_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name12lbl.Text;
             pricetextbox.Text = "350.30";
         }
 
         private void carbonara_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name13lbl.Text;
             pricetextbox.Text = "400.50";
         }
 
         private void parmesan_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name14lbl.Text;
             pricetextbox.Text = "450.60";
         }
 
         private void rolly_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name15lbl.Text;
             pricetextbox.Text = "500.70";
         }
 
         private void pictureBox20_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name16lbl.Text;
             pricetextbox.Text = "600.10";
         }
 
         private void pictureBox19_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = namel17lbl.Text;
             pricetextbox.Text = "550.25";
         }
 
         private void pictureBox18_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name18lbl.Text;
             pricetextbox.Text = "500.60";
         }
 
         private void pictureBox17_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name19lbl.Text;
             pricetextbox.Text = "450.90";
         }
 
         private void pictureBox16_Click(object sender, EventArgs e)
         {
-            //codes for inserting value of TEXT property of a textbox (item namne & price)
+            //codes for inserting value of TEXT property of a textbox (item name & price)
             itemnametxtbox.Text = name20lbl.Text;
             pricetextbox.Text = "890.90";
         }
