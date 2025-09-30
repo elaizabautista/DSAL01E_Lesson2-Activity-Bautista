@@ -193,7 +193,7 @@
             this.groupBox5.Controls.Add(this.americano);
             this.groupBox5.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.ForeColor = System.Drawing.Color.RosyBrown;
-            this.groupBox5.Location = new System.Drawing.Point(842, 21);
+            this.groupBox5.Location = new System.Drawing.Point(773, 21);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(1070, 868);
             this.groupBox5.TabIndex = 48;
@@ -678,7 +678,7 @@
             this.groupBox4.Controls.Add(this.button7);
             this.groupBox4.Controls.Add(this.button6);
             this.groupBox4.Controls.Add(this.button5);
-            this.groupBox4.Location = new System.Drawing.Point(120, 612);
+            this.groupBox4.Location = new System.Drawing.Point(51, 612);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(716, 268);
             this.groupBox4.TabIndex = 47;
@@ -869,7 +869,7 @@
             this.groupBox3.Controls.Add(this.cashrenderedtxtbox);
             this.groupBox3.Controls.Add(this.label34);
             this.groupBox3.Controls.Add(this.label33);
-            this.groupBox3.Location = new System.Drawing.Point(120, 433);
+            this.groupBox3.Location = new System.Drawing.Point(51, 433);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(716, 173);
             this.groupBox3.TabIndex = 46;
@@ -928,7 +928,7 @@
             this.groupBox2.Controls.Add(this.label31);
             this.groupBox2.Controls.Add(this.label30);
             this.groupBox2.ForeColor = System.Drawing.Color.Snow;
-            this.groupBox2.Location = new System.Drawing.Point(120, 283);
+            this.groupBox2.Location = new System.Drawing.Point(51, 283);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(716, 144);
             this.groupBox2.TabIndex = 45;
@@ -1014,7 +1014,7 @@
             this.groupBox1.Controls.Add(this.label26);
             this.groupBox1.Controls.Add(this.label25);
             this.groupBox1.ForeColor = System.Drawing.Color.MistyRose;
-            this.groupBox1.Location = new System.Drawing.Point(120, 88);
+            this.groupBox1.Location = new System.Drawing.Point(51, 88);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(716, 189);
             this.groupBox1.TabIndex = 44;
@@ -1216,7 +1216,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Calisto MT", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(538, 69);
+            this.label4.Location = new System.Drawing.Point(469, 69);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(102, 19);
             this.label4.TabIndex = 43;
@@ -1228,7 +1228,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Calisto MT", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(395, 69);
+            this.label3.Location = new System.Drawing.Point(326, 69);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(137, 19);
             this.label3.TabIndex = 42;
@@ -1239,7 +1239,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(123, 69);
+            this.label2.Location = new System.Drawing.Point(54, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 41;
@@ -1251,7 +1251,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Schoolbook", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(240, 9);
+            this.label1.Location = new System.Drawing.Point(171, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(478, 31);
             this.label1.TabIndex = 40;
