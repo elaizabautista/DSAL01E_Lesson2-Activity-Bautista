@@ -196,7 +196,7 @@
             this.groupBox4.Controls.Add(this.B_Chickencheckbox);
             this.groupBox4.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.Brown;
-            this.groupBox4.Location = new System.Drawing.Point(415, 342);
+            this.groupBox4.Location = new System.Drawing.Point(504, 342);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(335, 280);
             this.groupBox4.TabIndex = 9;
@@ -259,7 +259,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Snow;
-            this.label4.Location = new System.Drawing.Point(591, 827);
+            this.label4.Location = new System.Drawing.Point(680, 827);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 23);
             this.label4.TabIndex = 2;
@@ -345,7 +345,7 @@
             this.groupBox3.Controls.Add(this.A_FriedChickencheckBox);
             this.groupBox3.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Brown;
-            this.groupBox3.Location = new System.Drawing.Point(415, 68);
+            this.groupBox3.Location = new System.Drawing.Point(504, 68);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(335, 278);
             this.groupBox3.TabIndex = 7;
@@ -385,7 +385,7 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Brown;
-            this.groupBox2.Location = new System.Drawing.Point(38, 214);
+            this.groupBox2.Location = new System.Drawing.Point(127, 214);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(371, 408);
             this.groupBox2.TabIndex = 8;
@@ -545,7 +545,7 @@
             this.groupBox1.Controls.Add(this.foodARdbtn);
             this.groupBox1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Brown;
-            this.groupBox1.Location = new System.Drawing.Point(38, 68);
+            this.groupBox1.Location = new System.Drawing.Point(127, 68);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(371, 150);
             this.groupBox1.TabIndex = 6;
@@ -558,7 +558,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(419, 9);
+            this.label1.Location = new System.Drawing.Point(508, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(685, 45);
             this.label1.TabIndex = 5;
@@ -611,7 +611,7 @@
             this.groupBox5.Controls.Add(this.pictureBox3);
             this.groupBox5.Controls.Add(this.pictureBox2);
             this.groupBox5.Controls.Add(this.pictureBox1);
-            this.groupBox5.Location = new System.Drawing.Point(756, 68);
+            this.groupBox5.Location = new System.Drawing.Point(845, 68);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(748, 713);
             this.groupBox5.TabIndex = 12;
@@ -1072,14 +1072,14 @@
             // 
             this.displayListbox.FormattingEnabled = true;
             this.displayListbox.ItemHeight = 16;
-            this.displayListbox.Location = new System.Drawing.Point(38, 628);
+            this.displayListbox.Location = new System.Drawing.Point(127, 628);
             this.displayListbox.Name = "displayListbox";
             this.displayListbox.Size = new System.Drawing.Size(498, 196);
             this.displayListbox.TabIndex = 13;
             // 
             // DisplayPictureBox
             // 
-            this.DisplayPictureBox.Location = new System.Drawing.Point(542, 628);
+            this.DisplayPictureBox.Location = new System.Drawing.Point(631, 628);
             this.DisplayPictureBox.Name = "DisplayPictureBox";
             this.DisplayPictureBox.Size = new System.Drawing.Size(208, 196);
             this.DisplayPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1091,7 +1091,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
-            this.ClientSize = new System.Drawing.Size(1516, 932);
+            this.ClientSize = new System.Drawing.Size(1655, 932);
             this.Controls.Add(this.displayListbox);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
