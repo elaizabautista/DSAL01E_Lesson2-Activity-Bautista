@@ -183,6 +183,7 @@
             this.userAccountToolStripMenuItem1.Name = "userAccountToolStripMenuItem1";
             this.userAccountToolStripMenuItem1.Size = new System.Drawing.Size(117, 23);
             this.userAccountToolStripMenuItem1.Text = "User Account";
+            this.userAccountToolStripMenuItem1.Click += new System.EventHandler(this.userAccountToolStripMenuItem1_Click);
             // 
             // humanResourcesToolStripMenuItem
             // 

@@ -107,5 +107,12 @@ namespace DSAL01E_Lesson2_Activity_Bautista
         {
             //
         }
+
+        private void userAccountToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Example6 newMDIChild = new Example6();
+            newMDIChild.MdiParent = this;
+            newMDIChild.Show();
+        }
     }
 }
