@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.priDisplaylistbox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
+            // 
+            // priDisplaylistbox
+            // 
+            this.priDisplaylistbox.FormattingEnabled = true;
+            this.priDisplaylistbox.ItemHeight = 16;
+            this.priDisplaylistbox.Location = new System.Drawing.Point(17, 19);
+            this.priDisplaylistbox.Name = "priDisplaylistbox";
+            this.priDisplaylistbox.Size = new System.Drawing.Size(323, 612);
+            this.priDisplaylistbox.TabIndex = 0;
             // 
             // PrintExample6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.LightPink;
+            this.ClientSize = new System.Drawing.Size(361, 652);
+            this.Controls.Add(this.priDisplaylistbox);
             this.Name = "PrintExample6";
             this.Text = "PrintExample6";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -43,5 +55,7 @@
         }
 
         #endregion
+
+        public System.Windows.Forms.ListBox priDisplaylistbox;
     }
 }
