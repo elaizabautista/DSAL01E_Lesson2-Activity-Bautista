@@ -47,7 +47,25 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             other_netincome = other_numhrs * other_rate;
             other_netincomeTxtbox.Text = other_netincome.ToString();
             grossincome =  basicnetincome + hono_netincome + other_netincome;
-            gross_incomeTxtbox.Text += grossincome.ToString("n");
+            gross_incomeTxtbox.Text = grossincome.ToString("n");
+            pagibig_contribTxtbox.Text = "100.00";
+
+            double sss_contrib;
+
+            if (grossincome < 5250.00)
+            {
+                sss_contrib = 760.00;
+            }
+            else if (grossincome >= 34750.00)
+            {
+                sss_contrib = 5280.00;
+            }
+            else
+            {
+                // Each 500 step increases contribution by 75
+                int step = (int)((grossincome - 5250.00) / 500.00);
+                sss_contrib = 835.00 + (step * 75.00);
+            }
         }
 
         private void hono_numhrsTxtbox_TextChanged(object sender, EventArgs e)
