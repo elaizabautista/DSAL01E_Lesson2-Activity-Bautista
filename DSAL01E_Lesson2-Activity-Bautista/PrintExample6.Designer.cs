@@ -49,7 +49,7 @@
             this.Controls.Add(this.priDisplaylistbox);
             this.Name = "PrintExample6";
             this.Text = "PrintExample6";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.ResumeLayout(false);
 
         }

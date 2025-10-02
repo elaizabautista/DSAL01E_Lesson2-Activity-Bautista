@@ -786,6 +786,7 @@
             this.others_loanCombo.Name = "others_loanCombo";
             this.others_loanCombo.Size = new System.Drawing.Size(211, 24);
             this.others_loanCombo.TabIndex = 75;
+            this.others_loanCombo.SelectedIndexChanged += new System.EventHandler(this.others_loanCombo_SelectedIndexChanged);
             // 
             // groupBox7
             // 
