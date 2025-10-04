@@ -139,11 +139,29 @@
     <Compile Include="Login - Copy.Designer.cs">
       <DependentUpon>Login - Copy.cs</DependentUpon>
     </Compile>
+    <Compile Include="Payroll_Function.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payroll_Function.Designer.cs">
+      <DependentUpon>Payroll_Function.cs</DependentUpon>
+    </Compile>
     <Compile Include="PayslipReport.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PayslipReport.Designer.cs">
       <DependentUpon>PayslipReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POS1_Function.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS1_Function.Designer.cs">
+      <DependentUpon>POS1_Function.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POS2_Function.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS2_Function.Designer.cs">
+      <DependentUpon>POS2_Function.cs</DependentUpon>
     </Compile>
     <Compile Include="PrintExample6.cs">
       <SubType>Form</SubType>
@@ -210,8 +228,17 @@
     <EmbeddedResource Include="Login - Copy.resx">
       <DependentUpon>Login - Copy.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Payroll_Function.resx">
+      <DependentUpon>Payroll_Function.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PayslipReport.resx">
       <DependentUpon>PayslipReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS1_Function.resx">
+      <DependentUpon>POS1_Function.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS2_Function.resx">
+      <DependentUpon>POS2_Function.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintExample6.resx">
       <DependentUpon>PrintExample6.cs</DependentUpon>

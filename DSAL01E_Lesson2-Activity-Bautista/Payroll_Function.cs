@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace DSAL01E_Lesson2_Activity_Bautista
 {
-    public partial class Lesson5_Activity : Form
+    public partial class Payroll_Function : Form
     {
         private double basicIncome;
         private double honorariumIncome;
@@ -20,7 +20,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
         private double netIncome;
         private double taxContrib;
 
-        public Lesson5_Activity()
+        public Payroll_Function()
         {
             InitializeComponent();
         }
@@ -382,7 +382,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             netIncome = grossIncome - totalDeductions;
             netincome_Txtbox.Text = netIncome.ToString("N2");
         }
-     
+
 
         // Loads an image into pictureBox1
         private void browse_btn_Click(object sender, EventArgs e)
@@ -431,33 +431,33 @@ namespace DSAL01E_Lesson2_Activity_Bautista
 
         private void save_btn_Click(object sender, EventArgs e)
         {
-        // Combine first name, middle name, and surname 
-        string fullName = firstname_Txtbox.Text + " " + middlename_Txtbox.Text + " " + surname_Txtbox.Text;
-        
-        //for the paydate
-        string paydate = paydate_Txtbox.Text;
-            
-        // Create and show the PayslipReport form with all necessary data
-        PayslipReport payslip = new PayslipReport(
-        
-        employeeno_Txtbox.Text,
-        fullName, //combined name
-        paydate,   // cutoff
-        paydate,   // payperiod (same value as cutoff)
-        
-        "College of Engineering, Computer Studies and Architecture", 
-        
-        basicIncome,
-        honorariumIncome,
-        otherIncome,
-        grossIncome,
-        totalDeductions,
-        netIncome,
-        SSScontribution_Txtbox.Text,
-        philhealthcontribution_Txtbox.Text,
-        pagibigcontribution_Txtbox.Text,
-        incometaxcontribution_Txtbox.Text
-    );
+            // Combine first name, middle name, and surname 
+            string fullName = firstname_Txtbox.Text + " " + middlename_Txtbox.Text + " " + surname_Txtbox.Text;
+
+            //for the paydate
+            string paydate = paydate_Txtbox.Text;
+
+            // Create and show the PayslipReport form with all necessary data
+            PayslipReport payslip = new PayslipReport(
+
+            employeeno_Txtbox.Text,
+            fullName, //combined name
+            paydate,   // cutoff
+            paydate,   // payperiod (same value as cutoff)
+
+            "College of Engineering, Computer Studies and Architecture",
+
+            basicIncome,
+            honorariumIncome,
+            otherIncome,
+            grossIncome,
+            totalDeductions,
+            netIncome,
+            SSScontribution_Txtbox.Text,
+            philhealthcontribution_Txtbox.Text,
+            pagibigcontribution_Txtbox.Text,
+            incometaxcontribution_Txtbox.Text
+        );
             payslip.ShowDialog();
         }
     }
