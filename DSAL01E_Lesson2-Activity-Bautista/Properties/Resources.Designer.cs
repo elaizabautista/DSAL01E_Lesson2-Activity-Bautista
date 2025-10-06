@@ -65,7 +65,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista.Properties {
         /// </summary>
         public static System.Drawing.Bitmap _2e5ed7a03c1399634d33ae43d502dac7 {
             get {
-                object obj = ResourceManager.GetObject("_2e5ed7a03c1399634d33ae43d502dac7", resourceCulture);
+                object obj = ResourceManager.GetObject("2e5ed7a03c1399634d33ae43d502dac7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,6 +196,16 @@ namespace DSAL01E_Lesson2_Activity_Bautista.Properties {
         public static System.Drawing.Bitmap bg {
             get {
                 object obj = ResourceManager.GetObject("bg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap bg1 {
+            get {
+                object obj = ResourceManager.GetObject("bg1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
