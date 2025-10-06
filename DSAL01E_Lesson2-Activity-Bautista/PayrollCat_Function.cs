@@ -73,6 +73,46 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             UpdateContributions();
         }
 
+        private void Cancel_Click(object sender, EventArgs e)
+        {
+            // Create an array of all textboxes
+            TextBox[] textboxes = {
+            emp_nuTxtbox, firstnameTxtbox, MNameTxtbox, surTxtbox, civil_statusTxtbox,
+            desigTxtbox, numDependentTxtbox, empStatusTxtbox, DeptNameTxtbox,
+            basicnetincome_Txtbox, basic_rateTxtbox, basic_numhrsTxtbox,
+            hono_netincomeTxtbox, hono_numhrsTxtbox, hono_rateTxtbox,
+            other_netincomeTxtbox, other_rateTxtbox, other_numhrsTxtbox,
+            pagibig_contribTxtbox, philhealth_contribTxtbox, tax_contribTxtbox,
+            sss_loanTxtbox, pagibig_loanTxtbox
+};
+
+            // Loop through and clear each textbox
+            foreach (var tb in textboxes)
+            {
+                tb.Clear();
+            }
+        }
+
+        private void New_Click(object sender, EventArgs e)
+        {
+            // Create an array of all textboxes
+            TextBox[] textboxes = {
+            emp_nuTxtbox, firstnameTxtbox, MNameTxtbox, surTxtbox, civil_statusTxtbox,
+            desigTxtbox, numDependentTxtbox, empStatusTxtbox, DeptNameTxtbox,
+            basicnetincome_Txtbox, basic_rateTxtbox, basic_numhrsTxtbox,
+            hono_netincomeTxtbox, hono_numhrsTxtbox, hono_rateTxtbox,
+            other_netincomeTxtbox, other_rateTxtbox, other_numhrsTxtbox,
+            pagibig_contribTxtbox, philhealth_contribTxtbox, tax_contribTxtbox,
+            sss_loanTxtbox, pagibig_loanTxtbox
+};
+
+            // Loop through and clear each textbox
+            foreach (var tb in textboxes)
+            {
+                tb.Clear();
+            }
+        }
+
         private void other_numhrsTxtbox_TextChanged(object sender, EventArgs e)
         {
             other_numhrs = double.TryParse(other_numhrsTxtbox.Text, out double val) ? val : 0;

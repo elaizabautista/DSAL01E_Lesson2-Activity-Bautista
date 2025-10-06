@@ -172,6 +172,7 @@
             this.Cancel.TabIndex = 171;
             this.Cancel.Text = "Cancel";
             this.Cancel.UseVisualStyleBackColor = false;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // New
             // 
@@ -182,6 +183,7 @@
             this.New.TabIndex = 170;
             this.New.Text = "New";
             this.New.UseVisualStyleBackColor = false;
+            this.New.Click += new System.EventHandler(this.New_Click);
             // 
             // payslip_view_listbox
             // 
