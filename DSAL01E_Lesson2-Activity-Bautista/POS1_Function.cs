@@ -1,54 +1,69 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DSAL01E_Lesson2_Activity_Bautista
 {
     public partial class POS1_Function : Form
     {
-        // Declare variables
-        double price, discount_amt, discounted_amt;
-        int qty;
+    // ---------------- Class-level variables ---------------- //
+        int qty = 0;
+        double price = 0;
+        double discount_amt = 0;
+        double discounted_amt = 0;
 
         public POS1_Function()
         {
             InitializeComponent();
         }
+        // ---------------- Function methods ---------------- //
 
-        // Function for clearing the quantity textbox and placing cursor inside
-        private void Clearquantitytxtbox()
+        // Function method for clearing the quantity textbox and placing the cursor
+        private void quantityTxtbox()
         {
             quantitytxtbox.Clear();
             quantitytxtbox.Focus();
         }
 
-        // Function for converting quantity and price input from string to numeric values
+        // Function method for converting quantity and price input from string to numeric
         private void quantity_price_Convert()
         {
-            qty = Convert.ToInt32(quantitytxtbox.Text);
-            price = Convert.ToDouble(pricetextbox.Text);
+            try
+            {
+                qty = Convert.ToInt32(quantitytxtbox.Text);
+                price = Convert.ToDouble(pricetextbox.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Input is invalid");
+                quantityTxtbox();
+            }
         }
 
-        // Function for computing discount and discounted amount
+        // Function method for the formula needed in the program's computations
         private void computation_Formula_and_DisplayData()
         {
-            discount_amt = (qty * price) * 0.10; // default 10% discount
             discounted_amt = (qty * price) - discount_amt;
-
             discounttxtbox.Text = discount_amt.ToString("n");
             discountedtxtbox.Text = discounted_amt.ToString("n");
         }
 
-        // Function for updating item name and price textboxes
-        public void price_item_TextValue(string itemname, string price)
+        // Function with a return value for setting the item name and price textboxes
+        public void price_item_TextValue(string itemname, string itemprice)
         {
             itemnametxtbox.Text = itemname;
-            pricetextbox.Text = price;
+            pricetextbox.Text = itemprice;
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void POS1_Function_Load(object sender, EventArgs e)
         {
-            // Disable certain textboxes
+            // disable textboxes
             itemnametxtbox.Enabled = false;
             pricetextbox.Enabled = false;
             discountedtxtbox.Enabled = false;
@@ -57,26 +72,6 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             discounted_totaltxtbox.Enabled = false;
             changetxtbox.Enabled = false;
 
-            // Insert pictures into PictureBoxes
-            pictureBox16.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Images\\a16.jpg");
-            pictureBox17.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Imagesa17.jpg");
-            pictureBox18.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Images\\a18.jpg");
-            pictureBox19.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Images\\a19.jpg");
-            pictureBox20.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Images\\a20.jpg");
-
-            // Insert names into Labels
-            name1lbl.Text = "Midnight Brew";
-            name2lbl.Text = "Velvet Sunrise";
-            name3lbl.Text = "Creamy Chill Shake";
-            name4lbl.Text = "Heartstrings Latte";
-            name5lbl.Text = "Chocobliss Cup";
-            name10lbl.Text = "Parisian Choco Twist";
-            name9lbl.Text = "Choco Symphony";
-            name8lbl.Text = "Strawberry Serenade";
-            name7lbl.Text = "Golden Harvest Cake";
-            name6lbl.Text = "Berry Dream Slice";
-
-            // Initialize textboxes
             quantitytxtbox.Text = "0";
             pricetextbox.Text = "0";
             discounttxtbox.Text = "0";
@@ -84,41 +79,97 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             cashrenderedtxtbox.Text = "0";
         }
 
-        // Common function for radio buttons
-        private void ApplyDiscount(double discountRate)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             try
             {
                 quantity_price_Convert();
-                discount_amt = (qty * price) * discountRate;
+                discount_amt = (qty * price) * 0.30;
                 computation_Formula_and_DisplayData();
 
-                // Uncheck other radio buttons
                 regularRbtn.Checked = false;
                 EmployeeRdbtn.Checked = false;
                 noTaxRdbtn.Checked = false;
             }
-            catch
+            catch (Exception)
             {
                 MessageBox.Show("Input is invalid");
             }
-
-            Clearquantitytxtbox();
+            quantityTxtbox();
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e) => ApplyDiscount(0.30);
-        private void regularRbtn_CheckedChanged(object sender, EventArgs e) => ApplyDiscount(0.30);
-        private void EmployeeRdbtn_CheckedChanged(object sender, EventArgs e) => ApplyDiscount(0.15);
-        private void noTaxRdbtn_CheckedChanged(object sender, EventArgs e) => ApplyDiscount(0);
+        private void regularRbtn_CheckedChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                quantity_price_Convert();
+                discount_amt = (qty * price) * 0.10;
+                computation_Formula_and_DisplayData();
+
+                radioButton1.Checked = false;
+                EmployeeRdbtn.Checked = false;
+                noTaxRdbtn.Checked = false;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Invalid data input in quantity");
+            }
+            quantityTxtbox();
+        }
+
+        private void EmployeeRdbtn_CheckedChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                quantity_price_Convert();
+                discount_amt = (qty * price) * 0.15;
+                computation_Formula_and_DisplayData();
+
+                radioButton1.Checked = false;
+                regularRbtn.Checked = false;
+                noTaxRdbtn.Checked = false;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Invalid data input in quantity");
+            }
+            quantityTxtbox();
+        }
+
+        private void noTaxRdbtn_CheckedChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                quantity_price_Convert();
+                discount_amt = 0;
+                computation_Formula_and_DisplayData();
+
+                radioButton1.Checked = false;
+                regularRbtn.Checked = false;
+                EmployeeRdbtn.Checked = false;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Invalid data input in quantity");
+            }
+            quantityTxtbox();
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int qty = Convert.ToInt32(quantitytxtbox.Text);
-            double discount_amt = Convert.ToDouble(discounttxtbox.Text);
-            double discounted_amt = Convert.ToDouble(discountedtxtbox.Text);
-            double cash_rendered = Convert.ToDouble(cashrenderedtxtbox.Text);
-            double change = cash_rendered - discounted_amt;
-
+            //Declaration of variables with data types
+            int qty;
+            double discount_amt, discounted_amt, cash_rendered, change;
+            qty = Convert.ToInt32(quantitytxtbox.Text);
+            discount_amt = Convert.ToDouble(discounttxtbox.Text);
+            discounted_amt = Convert.ToDouble(discountedtxtbox.Text);
+            cash_rendered = Convert.ToDouble(cashrenderedtxtbox.Text);
+            //codes to accumulate the value of the quantity, discount given and discounted amount from one transaction to another
+            qty_totaltxtbox.Text += qty;
+            discount_totaltxtbox.Text += discount_amt;
+            discounted_totaltxtbox.Text += discounted_amt;
+            change = cash_rendered - discounted_amt;
+            //convert string data form textboxes to numeric and place it as value of the variable
             qty_totaltxtbox.Text = qty.ToString();
             discount_totaltxtbox.Text = discount_amt.ToString("n");
             discounted_totaltxtbox.Text = discounted_amt.ToString("n");
@@ -126,10 +177,15 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             cashrenderedtxtbox.Text = cash_rendered.ToString("n");
         }
 
-        private void button4_Click(object sender, EventArgs e) => this.Close();
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //code for closing the form application once the button is clicked
+            this.Close();
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //codes for clearing specific pointed textboxes
             itemnametxtbox.Clear();
             pricetextbox.Clear();
             quantitytxtbox.Clear();
@@ -138,114 +194,131 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             cashrenderedtxtbox.Clear();
         }
 
-        // ---------------------------
-        // PictureBox click codes - KEEP EXACTLY AS IS
-        // ---------------------------
         private void americano_Click(object sender, EventArgs e)
         {
-            price_item_TextValue("Americano", "89.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Midnight Brew", "120.90");
+            quantityTxtbox();
         }
+
         private void cortado_Click(object sender, EventArgs e)
         {
-            price_item_TextValue("Velvet Sumrise", "90.90");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void milkshake_Click(object sender, EventArgs e)
         {
-            price_item_TextValue("Creamy Chill Shake", "90.90");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void latte_Click(object sender, EventArgs e)
         {
-            price_item_TextValue("Heartstrings Latte", "100.90");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void mocha_Click(object sender, EventArgs e)
         {
-            price_item_TextValue("Heartstrings Latte", "100.90");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void strawberryshortcake_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name6lbl.Text, "90.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void carrotcake_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name7lbl.Text, "95.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void cheesecake_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name8lbl.Text, "90.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void mochacake_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name9lbl.Text, "190.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void chocolatecorissants_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name10lbl.Text, "80.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void pesto_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name11lbl.Text, "70.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void spaghetti_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name12lbl.Text, "85.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void carbonara_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name13lbl.Text, "150.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void parmesan_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name14lbl.Text, "100.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void rolly_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name15lbl.Text, "110.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void pictureBox20_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name16lbl.Text, "85.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void pictureBox19_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name16lbl.Text, "90.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void pictureBox18_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name18lbl.Text, "90.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void pictureBox17_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name19lbl.Text, "80.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
+
         private void pictureBox16_Click(object sender, EventArgs e)
         {
-            price_item_TextValue(name20lbl.Text, "190.50");
-            Clearquantitytxtbox();
+            price_item_TextValue("Velvet Sunrise", "120.90");
+            quantityTxtbox();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             PrintForm2 print = new PrintForm2();
 
+            // Transfer the important details to Form2's listbox
             print.printListbox.Items.Add("Item Name:                                " + itemnametxtbox.Text);
             print.printListbox.Items.Add("Quantity:                                 " + quantitytxtbox.Text);
             print.printListbox.Items.Add("Price:                                    " + pricetextbox.Text);
@@ -257,7 +330,9 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             print.printListbox.Items.Add("Cash Rendered:                            " + cashrenderedtxtbox.Text);
             print.printListbox.Items.Add("Change:                                   " + changetxtbox.Text);
 
+            // show the print form
             print.Show();
         }
     }
 }
+

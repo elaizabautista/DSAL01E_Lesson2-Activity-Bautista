@@ -92,18 +92,18 @@
             this.displayListbox = new System.Windows.Forms.ListBox();
             this.DisplayPictureBox = new System.Windows.Forms.PictureBox();
             this.B_HawaiiancheckBox = new System.Windows.Forms.CheckBox();
-            this.B_Friescheckbox = new System.Windows.Forms.CheckBox();
             this.changeTxtbox = new System.Windows.Forms.TextBox();
+            this.B_Friescheckbox = new System.Windows.Forms.CheckBox();
             this.B_carbonaracheckBox = new System.Windows.Forms.CheckBox();
             this.B_Chickencheckbox = new System.Windows.Forms.CheckBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.B_halohalocheckBox = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.qtyTxtbox = new System.Windows.Forms.TextBox();
-            this.priceTxtbox = new System.Windows.Forms.TextBox();
+            this.priceTxtBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.A_CokeCheckBox = new System.Windows.Forms.CheckBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.B_halohalocheckBox = new System.Windows.Forms.CheckBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.A_SpecialPizzaCheckbox = new System.Windows.Forms.CheckBox();
             this.A_FriesCheckBox = new System.Windows.Forms.CheckBox();
@@ -133,8 +133,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DisplayPictureBox)).BeginInit();
-            this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -308,7 +308,7 @@
             this.groupBox5.Controls.Add(this.pictureBox3);
             this.groupBox5.Controls.Add(this.pictureBox2);
             this.groupBox5.Controls.Add(this.pictureBox1);
-            this.groupBox5.Location = new System.Drawing.Point(789, 91);
+            this.groupBox5.Location = new System.Drawing.Point(761, 166);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(748, 713);
             this.groupBox5.TabIndex = 21;
@@ -767,7 +767,7 @@
             this.groupBox1.Controls.Add(this.foodARdbtn);
             this.groupBox1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Brown;
-            this.groupBox1.Location = new System.Drawing.Point(71, 91);
+            this.groupBox1.Location = new System.Drawing.Point(43, 166);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(371, 150);
             this.groupBox1.TabIndex = 16;
@@ -792,7 +792,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(452, 32);
+            this.label1.Location = new System.Drawing.Point(424, 107);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(685, 45);
             this.label1.TabIndex = 15;
@@ -802,14 +802,14 @@
             // 
             this.displayListbox.FormattingEnabled = true;
             this.displayListbox.ItemHeight = 16;
-            this.displayListbox.Location = new System.Drawing.Point(71, 651);
+            this.displayListbox.Location = new System.Drawing.Point(43, 726);
             this.displayListbox.Name = "displayListbox";
             this.displayListbox.Size = new System.Drawing.Size(498, 196);
             this.displayListbox.TabIndex = 22;
             // 
             // DisplayPictureBox
             // 
-            this.DisplayPictureBox.Location = new System.Drawing.Point(575, 651);
+            this.DisplayPictureBox.Location = new System.Drawing.Point(547, 726);
             this.DisplayPictureBox.Name = "DisplayPictureBox";
             this.DisplayPictureBox.Size = new System.Drawing.Size(208, 196);
             this.DisplayPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -828,6 +828,15 @@
             this.B_HawaiiancheckBox.Text = "1 Medium Hawaiian Pizza";
             this.B_HawaiiancheckBox.UseVisualStyleBackColor = true;
             // 
+            // changeTxtbox
+            // 
+            this.changeTxtbox.BackColor = System.Drawing.Color.LavenderBlush;
+            this.changeTxtbox.Location = new System.Drawing.Point(215, 355);
+            this.changeTxtbox.Multiline = true;
+            this.changeTxtbox.Name = "changeTxtbox";
+            this.changeTxtbox.Size = new System.Drawing.Size(150, 31);
+            this.changeTxtbox.TabIndex = 20;
+            // 
             // B_Friescheckbox
             // 
             this.B_Friescheckbox.AutoSize = true;
@@ -839,15 +848,6 @@
             this.B_Friescheckbox.TabIndex = 8;
             this.B_Friescheckbox.Text = "1 Family Pack Fries";
             this.B_Friescheckbox.UseVisualStyleBackColor = true;
-            // 
-            // changeTxtbox
-            // 
-            this.changeTxtbox.BackColor = System.Drawing.Color.LavenderBlush;
-            this.changeTxtbox.Location = new System.Drawing.Point(215, 355);
-            this.changeTxtbox.Multiline = true;
-            this.changeTxtbox.Name = "changeTxtbox";
-            this.changeTxtbox.Size = new System.Drawing.Size(150, 31);
-            this.changeTxtbox.TabIndex = 20;
             // 
             // B_carbonaracheckBox
             // 
@@ -873,6 +873,35 @@
             this.B_Chickencheckbox.Text = "6 pcs. Delicious Fried Chicken";
             this.B_Chickencheckbox.UseVisualStyleBackColor = true;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox4.Controls.Add(this.B_HawaiiancheckBox);
+            this.groupBox4.Controls.Add(this.B_Friescheckbox);
+            this.groupBox4.Controls.Add(this.B_carbonaracheckBox);
+            this.groupBox4.Controls.Add(this.B_halohalocheckBox);
+            this.groupBox4.Controls.Add(this.B_Chickencheckbox);
+            this.groupBox4.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.ForeColor = System.Drawing.Color.Brown;
+            this.groupBox4.Location = new System.Drawing.Point(420, 440);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(335, 280);
+            this.groupBox4.TabIndex = 20;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Food Bundles B";
+            // 
+            // B_halohalocheckBox
+            // 
+            this.B_halohalocheckBox.AutoSize = true;
+            this.B_halohalocheckBox.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B_halohalocheckBox.ForeColor = System.Drawing.Color.Snow;
+            this.B_halohalocheckBox.Location = new System.Drawing.Point(42, 48);
+            this.B_halohalocheckBox.Name = "B_halohalocheckBox";
+            this.B_halohalocheckBox.Size = new System.Drawing.Size(264, 25);
+            this.B_halohalocheckBox.TabIndex = 6;
+            this.B_halohalocheckBox.Text = "4 cups Special Halo Halo Regular";
+            this.B_halohalocheckBox.UseVisualStyleBackColor = true;
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
@@ -889,12 +918,12 @@
             this.groupBox2.Controls.Add(this.discountamountTxtbox);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.qtyTxtbox);
-            this.groupBox2.Controls.Add(this.priceTxtbox);
+            this.groupBox2.Controls.Add(this.priceTxtBox);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Brown;
-            this.groupBox2.Location = new System.Drawing.Point(71, 237);
+            this.groupBox2.Location = new System.Drawing.Point(43, 312);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(371, 408);
             this.groupBox2.TabIndex = 19;
@@ -910,14 +939,14 @@
             this.qtyTxtbox.Size = new System.Drawing.Size(150, 31);
             this.qtyTxtbox.TabIndex = 4;
             // 
-            // priceTxtbox
+            // priceTxtBox
             // 
-            this.priceTxtbox.BackColor = System.Drawing.Color.LavenderBlush;
-            this.priceTxtbox.Location = new System.Drawing.Point(215, 49);
-            this.priceTxtbox.Multiline = true;
-            this.priceTxtbox.Name = "priceTxtbox";
-            this.priceTxtbox.Size = new System.Drawing.Size(150, 33);
-            this.priceTxtbox.TabIndex = 3;
+            this.priceTxtBox.BackColor = System.Drawing.Color.LavenderBlush;
+            this.priceTxtBox.Location = new System.Drawing.Point(215, 49);
+            this.priceTxtBox.Multiline = true;
+            this.priceTxtBox.Name = "priceTxtBox";
+            this.priceTxtBox.Size = new System.Drawing.Size(150, 33);
+            this.priceTxtBox.TabIndex = 3;
             // 
             // label3
             // 
@@ -953,35 +982,6 @@
             this.A_CokeCheckBox.Text = "1.5 Coke";
             this.A_CokeCheckBox.UseVisualStyleBackColor = true;
             // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox4.Controls.Add(this.B_HawaiiancheckBox);
-            this.groupBox4.Controls.Add(this.B_Friescheckbox);
-            this.groupBox4.Controls.Add(this.B_carbonaracheckBox);
-            this.groupBox4.Controls.Add(this.B_halohalocheckBox);
-            this.groupBox4.Controls.Add(this.B_Chickencheckbox);
-            this.groupBox4.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.ForeColor = System.Drawing.Color.Brown;
-            this.groupBox4.Location = new System.Drawing.Point(448, 365);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(335, 280);
-            this.groupBox4.TabIndex = 20;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Food Bundles B";
-            // 
-            // B_halohalocheckBox
-            // 
-            this.B_halohalocheckBox.AutoSize = true;
-            this.B_halohalocheckBox.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B_halohalocheckBox.ForeColor = System.Drawing.Color.Snow;
-            this.B_halohalocheckBox.Location = new System.Drawing.Point(42, 48);
-            this.B_halohalocheckBox.Name = "B_halohalocheckBox";
-            this.B_halohalocheckBox.Size = new System.Drawing.Size(264, 25);
-            this.B_halohalocheckBox.TabIndex = 6;
-            this.B_halohalocheckBox.Text = "4 cups Special Halo Halo Regular";
-            this.B_halohalocheckBox.UseVisualStyleBackColor = true;
-            // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
@@ -992,7 +992,7 @@
             this.groupBox3.Controls.Add(this.A_FriedChickencheckBox);
             this.groupBox3.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Brown;
-            this.groupBox3.Location = new System.Drawing.Point(448, 91);
+            this.groupBox3.Location = new System.Drawing.Point(420, 166);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(335, 278);
             this.groupBox3.TabIndex = 18;
@@ -1052,7 +1052,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Snow;
-            this.label4.Location = new System.Drawing.Point(624, 850);
+            this.label4.Location = new System.Drawing.Point(596, 925);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 23);
             this.label4.TabIndex = 14;
@@ -1062,20 +1062,21 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Thistle;
-            this.ClientSize = new System.Drawing.Size(1609, 904);
+            this.BackColor = System.Drawing.Color.Peru;
+            this.ClientSize = new System.Drawing.Size(1552, 1055);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.displayListbox);
             this.Controls.Add(this.DisplayPictureBox);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label4);
             this.Name = "POS2_Function";
             this.Text = "POS2_Function";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.POS2_Function_Load);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
@@ -1101,10 +1102,10 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DisplayPictureBox)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
@@ -1113,87 +1114,88 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox cashGivenTxtbox;
+        private System.Windows.Forms.TextBox totalQtyTxtbox;
+        private System.Windows.Forms.TextBox totalBillsTxtbox;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox discountedamountTxtbox;
+        private System.Windows.Forms.TextBox discountamountTxtbox;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.RadioButton foodARdbtn;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.CheckBox checkBox17;
+        private System.Windows.Forms.CheckBox checkBox18;
+        private System.Windows.Forms.CheckBox checkBox19;
+        private System.Windows.Forms.CheckBox checkBox20;
+        private System.Windows.Forms.CheckBox checkBox11;
+        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.CheckBox checkBox15;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button exitBtn;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton foodBRdtn;
+        private System.Windows.Forms.Label label1;
         public System.Windows.Forms.ListBox displayListbox;
-        public System.Windows.Forms.TextBox cashGivenTxtbox;
-        public System.Windows.Forms.TextBox totalQtyTxtbox;
-        public System.Windows.Forms.TextBox totalBillsTxtbox;
-        public System.Windows.Forms.Label label10;
-        public System.Windows.Forms.Label label9;
-        public System.Windows.Forms.Label label8;
-        public System.Windows.Forms.Label label7;
-        public System.Windows.Forms.Label label6;
-        public System.Windows.Forms.TextBox discountedamountTxtbox;
-        public System.Windows.Forms.TextBox discountamountTxtbox;
-        public System.Windows.Forms.Label label5;
-        public System.Windows.Forms.RadioButton foodARdbtn;
-        public System.Windows.Forms.GroupBox groupBox5;
-        public System.Windows.Forms.CheckBox checkBox16;
-        public System.Windows.Forms.CheckBox checkBox17;
-        public System.Windows.Forms.CheckBox checkBox18;
-        public System.Windows.Forms.CheckBox checkBox19;
-        public System.Windows.Forms.CheckBox checkBox20;
-        public System.Windows.Forms.CheckBox checkBox11;
-        public System.Windows.Forms.CheckBox checkBox12;
-        public System.Windows.Forms.CheckBox checkBox13;
-        public System.Windows.Forms.CheckBox checkBox14;
-        public System.Windows.Forms.CheckBox checkBox15;
-        public System.Windows.Forms.CheckBox checkBox6;
-        public System.Windows.Forms.CheckBox checkBox7;
-        public System.Windows.Forms.CheckBox checkBox8;
-        public System.Windows.Forms.CheckBox checkBox9;
-        public System.Windows.Forms.CheckBox checkBox10;
-        public System.Windows.Forms.CheckBox checkBox5;
-        public System.Windows.Forms.CheckBox checkBox4;
-        public System.Windows.Forms.CheckBox checkBox3;
-        public System.Windows.Forms.CheckBox checkBox2;
-        public System.Windows.Forms.CheckBox checkBox1;
-        public System.Windows.Forms.Button button4;
-        public System.Windows.Forms.Button button3;
-        public System.Windows.Forms.Button button2;
-        public System.Windows.Forms.PictureBox pictureBox16;
-        public System.Windows.Forms.PictureBox pictureBox17;
-        public System.Windows.Forms.PictureBox pictureBox18;
-        public System.Windows.Forms.PictureBox pictureBox19;
-        public System.Windows.Forms.PictureBox pictureBox20;
-        public System.Windows.Forms.PictureBox pictureBox11;
-        public System.Windows.Forms.PictureBox pictureBox12;
-        public System.Windows.Forms.PictureBox pictureBox13;
-        public System.Windows.Forms.PictureBox pictureBox14;
-        public System.Windows.Forms.PictureBox pictureBox15;
-        public System.Windows.Forms.PictureBox pictureBox6;
-        public System.Windows.Forms.PictureBox pictureBox7;
-        public System.Windows.Forms.Button button1;
-        public System.Windows.Forms.Button exitBtn;
-        public System.Windows.Forms.PictureBox pictureBox8;
-        public System.Windows.Forms.PictureBox pictureBox9;
-        public System.Windows.Forms.PictureBox pictureBox10;
-        public System.Windows.Forms.PictureBox pictureBox5;
-        public System.Windows.Forms.PictureBox pictureBox4;
-        public System.Windows.Forms.PictureBox pictureBox3;
-        public System.Windows.Forms.PictureBox pictureBox2;
-        public System.Windows.Forms.PictureBox pictureBox1;
-        public System.Windows.Forms.GroupBox groupBox1;
-        public System.Windows.Forms.RadioButton foodBRdtn;
-        public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.PictureBox DisplayPictureBox;
-        public System.Windows.Forms.CheckBox B_HawaiiancheckBox;
-        public System.Windows.Forms.CheckBox B_Friescheckbox;
-        public System.Windows.Forms.TextBox changeTxtbox;
-        public System.Windows.Forms.CheckBox B_carbonaracheckBox;
-        public System.Windows.Forms.CheckBox B_Chickencheckbox;
-        public System.Windows.Forms.GroupBox groupBox2;
-        public System.Windows.Forms.TextBox qtyTxtbox;
-        public System.Windows.Forms.TextBox priceTxtbox;
-        public System.Windows.Forms.Label label3;
-        public System.Windows.Forms.Label label2;
-        public System.Windows.Forms.CheckBox A_CokeCheckBox;
-        public System.Windows.Forms.GroupBox groupBox4;
-        public System.Windows.Forms.CheckBox B_halohalocheckBox;
-        public System.Windows.Forms.GroupBox groupBox3;
-        public System.Windows.Forms.CheckBox A_SpecialPizzaCheckbox;
-        public System.Windows.Forms.CheckBox A_FriesCheckBox;
-        public System.Windows.Forms.CheckBox A_sideDishCheckBox;
-        public System.Windows.Forms.CheckBox A_FriedChickencheckBox;
-        public System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox DisplayPictureBox;
+        private System.Windows.Forms.CheckBox B_HawaiiancheckBox;
+        private System.Windows.Forms.TextBox changeTxtbox;
+        private System.Windows.Forms.CheckBox B_Friescheckbox;
+        private System.Windows.Forms.CheckBox B_carbonaracheckBox;
+        private System.Windows.Forms.CheckBox B_Chickencheckbox;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.CheckBox B_halohalocheckBox;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox qtyTxtbox;
+        private System.Windows.Forms.TextBox priceTxtBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox A_CokeCheckBox;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.CheckBox A_SpecialPizzaCheckbox;
+        private System.Windows.Forms.CheckBox A_FriesCheckBox;
+        private System.Windows.Forms.CheckBox A_sideDishCheckBox;
+        private System.Windows.Forms.CheckBox A_FriedChickencheckBox;
+        private System.Windows.Forms.Label label4;
     }
 }

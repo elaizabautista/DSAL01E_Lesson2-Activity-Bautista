@@ -20,7 +20,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
         {
             InitializeComponent();
             foodARdbtn.CheckedChanged += foodARdbtn_CheckedChanged;
-            //foodBRdtn.CheckedChanged += foodBRdtn_CheckedChanged;
+            foodBRdtn.CheckedChanged += foodBRdtn_CheckedChanged;
         }
 
         private void Form4_Load(object sender, EventArgs e)
