@@ -16,6 +16,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
         int total_qty = 0;
         double total_amount = 0;
 
+
         public Example4()
         {
             InitializeComponent();

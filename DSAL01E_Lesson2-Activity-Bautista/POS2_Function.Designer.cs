@@ -260,6 +260,7 @@
             this.foodARdbtn.TabStop = true;
             this.foodARdbtn.Text = "Food Bundle A";
             this.foodARdbtn.UseVisualStyleBackColor = true;
+            this.foodARdbtn.CheckedChanged += new System.EventHandler(this.foodARdbtn_CheckedChanged);
             // 
             // groupBox5
             // 
@@ -324,6 +325,7 @@
             this.checkBox16.TabIndex = 42;
             this.checkBox16.Text = "Pizza 16";
             this.checkBox16.UseVisualStyleBackColor = true;
+            this.checkBox16.CheckedChanged += new System.EventHandler(this.checkBox16_CheckedChanged);
             // 
             // checkBox17
             // 
@@ -334,6 +336,7 @@
             this.checkBox17.TabIndex = 41;
             this.checkBox17.Text = "Pizza 17";
             this.checkBox17.UseVisualStyleBackColor = true;
+            this.checkBox17.CheckedChanged += new System.EventHandler(this.checkBox17_CheckedChanged);
             // 
             // checkBox18
             // 
@@ -344,6 +347,7 @@
             this.checkBox18.TabIndex = 40;
             this.checkBox18.Text = "Pizza 18";
             this.checkBox18.UseVisualStyleBackColor = true;
+            this.checkBox18.CheckedChanged += new System.EventHandler(this.checkBox18_CheckedChanged);
             // 
             // checkBox19
             // 
@@ -354,6 +358,7 @@
             this.checkBox19.TabIndex = 39;
             this.checkBox19.Text = "Pizza 19";
             this.checkBox19.UseVisualStyleBackColor = true;
+            this.checkBox19.CheckedChanged += new System.EventHandler(this.checkBox19_CheckedChanged);
             // 
             // checkBox20
             // 
@@ -364,6 +369,7 @@
             this.checkBox20.TabIndex = 38;
             this.checkBox20.Text = "Pizza 20";
             this.checkBox20.UseVisualStyleBackColor = true;
+            this.checkBox20.CheckedChanged += new System.EventHandler(this.checkBox20_CheckedChanged);
             // 
             // checkBox11
             // 
@@ -374,6 +380,7 @@
             this.checkBox11.TabIndex = 37;
             this.checkBox11.Text = "Pizza 11";
             this.checkBox11.UseVisualStyleBackColor = true;
+            this.checkBox11.CheckedChanged += new System.EventHandler(this.checkBox11_CheckedChanged);
             // 
             // checkBox12
             // 
@@ -384,6 +391,7 @@
             this.checkBox12.TabIndex = 36;
             this.checkBox12.Text = "Pizza 12";
             this.checkBox12.UseVisualStyleBackColor = true;
+            this.checkBox12.CheckedChanged += new System.EventHandler(this.checkBox12_CheckedChanged);
             // 
             // checkBox13
             // 
@@ -394,6 +402,7 @@
             this.checkBox13.TabIndex = 35;
             this.checkBox13.Text = "Pizza 13";
             this.checkBox13.UseVisualStyleBackColor = true;
+            this.checkBox13.CheckedChanged += new System.EventHandler(this.checkBox13_CheckedChanged);
             // 
             // checkBox14
             // 
@@ -404,6 +413,7 @@
             this.checkBox14.TabIndex = 34;
             this.checkBox14.Text = "Pizza 14";
             this.checkBox14.UseVisualStyleBackColor = true;
+            this.checkBox14.CheckedChanged += new System.EventHandler(this.checkBox14_CheckedChanged);
             // 
             // checkBox15
             // 
@@ -414,6 +424,7 @@
             this.checkBox15.TabIndex = 33;
             this.checkBox15.Text = "Pizza 15";
             this.checkBox15.UseVisualStyleBackColor = true;
+            this.checkBox15.CheckedChanged += new System.EventHandler(this.checkBox15_CheckedChanged);
             // 
             // checkBox6
             // 
@@ -424,6 +435,7 @@
             this.checkBox6.TabIndex = 32;
             this.checkBox6.Text = "Pizza 6";
             this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
             // checkBox7
             // 
@@ -434,6 +446,7 @@
             this.checkBox7.TabIndex = 31;
             this.checkBox7.Text = "Pizza 7";
             this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
             // 
             // checkBox8
             // 
@@ -444,6 +457,7 @@
             this.checkBox8.TabIndex = 30;
             this.checkBox8.Text = "Pizza 8";
             this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox8.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
             // 
             // checkBox9
             // 
@@ -454,6 +468,7 @@
             this.checkBox9.TabIndex = 29;
             this.checkBox9.Text = "Pizza 9";
             this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBox9.CheckedChanged += new System.EventHandler(this.checkBox9_CheckedChanged);
             // 
             // checkBox10
             // 
@@ -464,6 +479,7 @@
             this.checkBox10.TabIndex = 28;
             this.checkBox10.Text = "Pizza 10";
             this.checkBox10.UseVisualStyleBackColor = true;
+            this.checkBox10.CheckedChanged += new System.EventHandler(this.checkBox10_CheckedChanged);
             // 
             // checkBox5
             // 
@@ -474,6 +490,7 @@
             this.checkBox5.TabIndex = 27;
             this.checkBox5.Text = "Pizza 5";
             this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
             // checkBox4
             // 
@@ -484,6 +501,7 @@
             this.checkBox4.TabIndex = 26;
             this.checkBox4.Text = "Pizza 4";
             this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
             // checkBox3
             // 
@@ -494,6 +512,7 @@
             this.checkBox3.TabIndex = 25;
             this.checkBox3.Text = "Pizza 3";
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // checkBox2
             // 
@@ -504,6 +523,7 @@
             this.checkBox2.TabIndex = 24;
             this.checkBox2.Text = "Pizza 2";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox1
             // 
@@ -514,6 +534,7 @@
             this.checkBox1.TabIndex = 23;
             this.checkBox1.Text = "Pizza 1";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // button4
             // 
@@ -523,6 +544,7 @@
             this.button4.TabIndex = 22;
             this.button4.Text = "Calculate Bills";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -532,6 +554,7 @@
             this.button3.TabIndex = 21;
             this.button3.Text = "Print Transaction";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -541,6 +564,7 @@
             this.button2.TabIndex = 20;
             this.button2.Text = "Remove Order";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox16
             // 
@@ -670,6 +694,7 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "New";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // exitBtn
             // 
@@ -679,6 +704,7 @@
             this.exitBtn.TabIndex = 8;
             this.exitBtn.Text = "Exit";
             this.exitBtn.UseVisualStyleBackColor = true;
+            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
             // 
             // pictureBox8
             // 
@@ -785,6 +811,7 @@
             this.foodBRdtn.TabStop = true;
             this.foodBRdtn.Text = "Food Bundle B";
             this.foodBRdtn.UseVisualStyleBackColor = true;
+            this.foodBRdtn.CheckedChanged += new System.EventHandler(this.foodBRdtn_CheckedChanged);
             // 
             // label1
             // 
@@ -938,6 +965,7 @@
             this.qtyTxtbox.Name = "qtyTxtbox";
             this.qtyTxtbox.Size = new System.Drawing.Size(150, 31);
             this.qtyTxtbox.TabIndex = 4;
+            this.qtyTxtbox.TextChanged += new System.EventHandler(this.qtyTxtbox_TextChanged);
             // 
             // priceTxtBox
             // 
