@@ -139,11 +139,11 @@
     <Compile Include="Login - Copy.Designer.cs">
       <DependentUpon>Login - Copy.cs</DependentUpon>
     </Compile>
-    <Compile Include="Payroll_Function.cs">
+    <Compile Include="PayrollCat_Function.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Payroll_Function.Designer.cs">
-      <DependentUpon>Payroll_Function.cs</DependentUpon>
+    <Compile Include="PayrollCat_Function.Designer.cs">
+      <DependentUpon>PayrollCat_Function.cs</DependentUpon>
     </Compile>
     <Compile Include="PayslipReport.cs">
       <SubType>Form</SubType>
@@ -228,8 +228,8 @@
     <EmbeddedResource Include="Login - Copy.resx">
       <DependentUpon>Login - Copy.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Payroll_Function.resx">
-      <DependentUpon>Payroll_Function.cs</DependentUpon>
+    <EmbeddedResource Include="PayrollCat_Function.resx">
+      <DependentUpon>PayrollCat_Function.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PayslipReport.resx">
       <DependentUpon>PayslipReport.cs</DependentUpon>

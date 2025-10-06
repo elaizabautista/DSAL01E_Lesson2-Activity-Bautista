@@ -554,22 +554,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
              
         private void Example6_Load(object sender, EventArgs e)
         {
-            //codes for disabling textboxes
-            basicnetincome_Txtbox.Enabled = false;
-            hono_netincomeTxtbox.Enabled = false;
-            other_netincomeTxtbox.Enabled = false;
-            net_incomeTxtbox.Enabled = false;
-            gross_incomeTxtbox.Enabled = false;
-            total_deducTxtbox.Enabled = false;
-            sss_contribTxtbox.Enabled = false;
-            pagibig_contribTxtbox.Enabled = false;
-            tax_contribTxtbox.Enabled = false;
-            sss_loanTxtbox.Enabled = false;
-            pagibig_loanTxtbox.Enabled = false;
-            FSD_depositTxtbox.Enabled = false;
-            FS_loanTxtbox.Enabled = false;
-            sal_loanTxtbox.Enabled = false;
-            otherLoanTxtbox.Enabled = false;
+            
             others_loanCombo.Text = "Select other deduction";
             others_loanCombo.Items.Add("Other 1");
             others_loanCombo.Items.Add("Other 2");
