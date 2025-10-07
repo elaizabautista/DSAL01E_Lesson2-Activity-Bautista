@@ -240,6 +240,9 @@
     <EmbeddedResource Include="PayslipReport.resx">
       <DependentUpon>PayslipReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="POS1_Classform.resx">
+      <DependentUpon>POS1_Classform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="POS1_Function.resx">
       <DependentUpon>POS1_Function.cs</DependentUpon>
     </EmbeddedResource>

@@ -51,10 +51,11 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             others_loanCombo.Items.Add("Other 3");
             others_loanCombo.Items.Add("Other 4");
             others_loanCombo.Text = "Select other deduction";
+            // Hide the picture path textbox
             picpathTxtbox.Hide();
         }
 
-        // ===== TextChanged Events =====
+
         private void basic_numhrsTxtbox_TextChanged(object sender, EventArgs e)
         {
             basic_numhrs = double.TryParse(basic_numhrsTxtbox.Text, out double val) ? val : 0;
@@ -122,7 +123,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             UpdateContributions();
         }
 
-        // ===== Calculation Methods =====
+        //Calculation 
         private double CalculateIncome(double hours, double rate) => hours * rate;
 
         private void UpdateContributions()
@@ -189,6 +190,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             else MessageBox.Show("No other loan option selected!");
         }
 
+        //Compute total deductions and net income
         private void ComputeTotals()
         {
             sss_loan = double.TryParse(sss_loanTxtbox.Text, out double val) ? val : 0;
@@ -206,7 +208,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             net_incomeTxtbox.Text = netincome.ToString("n");
         }
 
-        // ===== Payslip Display =====
+        //Display payslip in listbox
         private void PreviewPayslipDetails_Click(object sender, EventArgs e)
         {
             payslip_view_listbox.Items.Clear();

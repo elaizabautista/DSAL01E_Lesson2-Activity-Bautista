@@ -60,7 +60,8 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             itemnametxtbox.Text = itemname;
             pricetextbox.Text = itemprice;
         }
-
+        
+        //initialize textboxes and disable input for certain fields
         private void POS1_Function_Load(object sender, EventArgs e)
         {
             // disable textboxes
@@ -79,6 +80,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             cashrenderedtxtbox.Text = "0";
         }
 
+        // Radio button discount events
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             try
@@ -95,7 +97,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             {
                 MessageBox.Show("Input is invalid");
             }
-            quantityTxtbox();
+            quantityTxtbox(); //resets quantity textbox
         }
 
         private void regularRbtn_CheckedChanged(object sender, EventArgs e)
@@ -155,6 +157,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             quantityTxtbox();
         }
 
+        // Button to compute totals and change
         private void button1_Click(object sender, EventArgs e)
         {
             //Convert quantity and price safely
@@ -209,7 +212,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //codes for clearing specific pointed textboxes
+            // Button to clear selected textboxes
             itemnametxtbox.Clear();
             pricetextbox.Clear();
             quantitytxtbox.Clear();
@@ -218,6 +221,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             cashrenderedtxtbox.Clear();
         }
 
+        // Item buttons to set name and price
         private void americano_Click(object sender, EventArgs e)
         {
             price_item_TextValue("Midnight Brew", "120.90");

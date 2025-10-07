@@ -16,5 +16,8 @@ namespace DSAL01E_Lesson2_Activity_Bautista
         {
             InitializeComponent();
         }
+
+        //codes for accessing the class created earlier
+        //PriceItem
     }
 }

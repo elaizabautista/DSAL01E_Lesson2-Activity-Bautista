@@ -12,7 +12,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
 {
     public partial class POS2_Function : Form
     {
-        //Class level variables (fields)
+        //Class level variables
         int total_qty = 0;
         double total_amount = 0;
         double currentPrice = 0;
@@ -27,6 +27,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             qtyTxtbox.Focus();
         }
 
+        // Function to set focus on quantity textbox
         private void quantityTxtbox()
         {
             qtyTxtbox.Focus();
