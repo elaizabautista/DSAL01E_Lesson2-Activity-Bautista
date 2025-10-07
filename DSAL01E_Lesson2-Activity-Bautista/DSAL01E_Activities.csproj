@@ -151,6 +151,12 @@
     <Compile Include="PayslipReport.Designer.cs">
       <DependentUpon>PayslipReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="POS1_Classform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS1_Classform.Designer.cs">
+      <DependentUpon>POS1_Classform.cs</DependentUpon>
+    </Compile>
     <Compile Include="POS1_Function.cs">
       <SubType>Form</SubType>
     </Compile>

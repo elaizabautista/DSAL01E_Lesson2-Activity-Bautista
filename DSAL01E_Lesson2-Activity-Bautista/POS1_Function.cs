@@ -157,22 +157,46 @@ namespace DSAL01E_Lesson2_Activity_Bautista
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Declaration of variables with data types
-            int qty;
-            double discount_amt, discounted_amt, cash_rendered, change;
-            qty = Convert.ToInt32(quantitytxtbox.Text);
-            discount_amt = Convert.ToDouble(discounttxtbox.Text);
-            discounted_amt = Convert.ToDouble(discountedtxtbox.Text);
-            cash_rendered = Convert.ToDouble(cashrenderedtxtbox.Text);
-            //codes to accumulate the value of the quantity, discount given and discounted amount from one transaction to another
-            qty_totaltxtbox.Text += qty;
-            discount_totaltxtbox.Text += discount_amt;
-            discounted_totaltxtbox.Text += discounted_amt;
-            change = cash_rendered - discounted_amt;
-            //convert string data form textboxes to numeric and place it as value of the variable
-            qty_totaltxtbox.Text = qty.ToString();
-            discount_totaltxtbox.Text = discount_amt.ToString("n");
-            discounted_totaltxtbox.Text = discounted_amt.ToString("n");
+            //Convert quantity and price safely
+            if (!int.TryParse(quantitytxtbox.Text.Trim(), out qty))
+            {
+                MessageBox.Show("Quantity must be a whole number");
+                quantityTxtbox();
+                return;
+            }
+
+            if (!double.TryParse(pricetextbox.Text.Trim(), out price))
+            {
+                MessageBox.Show("Price must be a number");
+                quantityTxtbox();
+                return;
+            }
+
+            //Compute discount and discounted amount
+            computation_Formula_and_DisplayData();
+
+            if (!double.TryParse(cashrenderedtxtbox.Text.Trim(), out double cash_rendered))
+            {
+                MessageBox.Show("Cash Rendered must be a number");
+                cashrenderedtxtbox.Focus();
+                return;
+            }
+
+            //Accumulate totals
+            int totalQty = 0;
+            double totalDiscount = 0, totalDiscounted = 0;
+
+            //Safely parse existing totals
+            int.TryParse(qty_totaltxtbox.Text.Trim(), out totalQty);
+            double.TryParse(discount_totaltxtbox.Text.Trim(), out totalDiscount);
+            double.TryParse(discounted_totaltxtbox.Text.Trim(), out totalDiscount);
+            totalQty += qty;
+            totalDiscount += discount_amt;
+            totalDiscounted += discounted_amt;
+            qty_totaltxtbox.Text = totalQty.ToString();
+            discount_totaltxtbox.Text = totalDiscount.ToString("n");
+            discounted_totaltxtbox.Text = totalDiscounted.ToString("n");
+            double change = cash_rendered - discounted_amt;
             changetxtbox.Text = change.ToString("n");
             cashrenderedtxtbox.Text = cash_rendered.ToString("n");
         }

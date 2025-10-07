@@ -15,6 +15,8 @@ namespace DSAL01E_Lesson2_Activity_Bautista
         //Class level variables (fields)
         int total_qty = 0;
         double total_amount = 0;
+        double currentPrice = 0;
+        double currentDiscount = 0;
 
         private void price_item_TextValue(string itemName, string itemPrice)
         {
@@ -35,6 +37,19 @@ namespace DSAL01E_Lesson2_Activity_Bautista
             InitializeComponent();
             foodARdbtn.CheckedChanged += foodARdbtn_CheckedChanged;
             foodBRdtn.CheckedChanged += foodBRdtn_CheckedChanged;
+        }
+
+        private void UpdateTotals()
+        {
+            total_qty = 0;
+            total_amount = 0;
+
+            if (A_CokeCheckBox.Checked) { total_qty += 1; total_amount += 120; }
+            if (A_FriedChickencheckBox.Checked) { total_qty += 1; total_amount += 200; }
+            // repeat for all checkboxes...
+
+            totalQtyTxtbox.Text = total_qty.ToString();
+            totalBillsTxtbox.Text = total_amount.ToString("n");
         }
 
         private void POS2_Function_Load(object sender, EventArgs e)
@@ -65,54 +80,75 @@ namespace DSAL01E_Lesson2_Activity_Bautista
 
         private void foodARdbtn_CheckedChanged(object sender, EventArgs e)
         {
-            double price;
-            //code for changing the form background color
+            if (!foodARdbtn.Checked) return;
+
             this.BackColor = Color.LightPink;
-            //code for food bundle B not to be selected
             foodBRdtn.Checked = false;
-            //inserting image inside the picture box
-            DisplayPictureBox.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Images\\b1.jpg");
-            //codes to check the checkboxes
+
+            DisplayPictureBox.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\b1.jpg");
+            
+            // Check/uncheck checkboxes
             A_CokeCheckBox.Checked = true;
             A_FriedChickencheckBox.Checked = true;
             A_FriesCheckBox.Checked = true;
             A_sideDishCheckBox.Checked = true;
             A_SpecialPizzaCheckbox.Checked = true;
-            //codes to uncheck the checkboxes
+
             B_carbonaracheckBox.Checked = false;
             B_Chickencheckbox.Checked = false;
             B_Friescheckbox.Checked = false;
             B_halohalocheckBox.Checked = false;
             B_HawaiiancheckBox.Checked = false;
-            //codoes for displaying data inside the textboxes
-            priceTxtBox.Text = "1,000";
-            discountamountTxtbox.Text = "200.00";
-            price = Convert.ToDouble(priceTxtBox.Text);
-            //codes for inserting data inside a listbox
-            displayListbox.Items.Add(foodBRdtn.Text + "              " + priceTxtBox.Text);
+
+            // Numeric price & discount
+            currentPrice = 1000;
+            currentDiscount = 200;
+            priceTxtBox.Text = currentPrice.ToString("n");
+            discountamountTxtbox.Text = currentDiscount.ToString("n");
+
+            displayListbox.Items.Add(foodARdbtn.Text + "              " + priceTxtBox.Text);
             displayListbox.Items.Add("       Discount Amount:" + "               " + discountamountTxtbox.Text);
+
             qtyTxtbox.Text = "0";
             qtyTxtbox.Focus();
+
+            UpdateTotals();
         }
 
         private void foodBRdtn_CheckedChanged(object sender, EventArgs e)
         {
+            if (!foodBRdtn.Checked) return;
+
             this.BackColor = Color.LightBlue;
             foodARdbtn.Checked = false;
-            DisplayPictureBox.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Lesson3_Exercises\\Images\\b2.jpg");
+
+            DisplayPictureBox.Image = Image.FromFile("C:\\Users\\Bautista\\source\\repos\\elaizabautista\\final2_visualstudio_form123\\Images\\b2.jpg");
+
             A_CokeCheckBox.Checked = false;
             A_FriedChickencheckBox.Checked = false;
             A_FriesCheckBox.Checked = false;
             A_sideDishCheckBox.Checked = false;
             A_SpecialPizzaCheckbox.Checked = false;
+
             B_carbonaracheckBox.Checked = true;
             B_Chickencheckbox.Checked = true;
             B_Friescheckbox.Checked = true;
             B_halohalocheckBox.Checked = true;
             B_HawaiiancheckBox.Checked = true;
-            priceTxtBox.Text = "1,299";
-            discountamountTxtbox.Text = "(15% of the Price) P194.85";
-            displayListbox.Items.Add(foodARdbtn.Text);
+
+            // Numeric price & discount
+            currentPrice = 1299;
+            currentDiscount = currentPrice * 0.15; // 15% discount
+            priceTxtBox.Text = currentPrice.ToString("n");
+            discountamountTxtbox.Text = currentDiscount.ToString("n");
+
+            displayListbox.Items.Add(foodBRdtn.Text + "              " + priceTxtBox.Text);
+            displayListbox.Items.Add("       Discount Amount:" + "               " + discountamountTxtbox.Text);
+
+            qtyTxtbox.Text = "0";
+            qtyTxtbox.Focus();
+
+            UpdateTotals();
         }
 
         private void button4_Click(object sender, EventArgs e)
