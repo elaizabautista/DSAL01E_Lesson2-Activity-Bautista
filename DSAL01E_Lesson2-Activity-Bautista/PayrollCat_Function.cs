@@ -38,7 +38,7 @@ namespace DSAL01E_Lesson2_Activity_Bautista
                                 163.50, 181.70, 199.80, 218.00, 236.20, 254.30, 272.50, 290.70,
                                 308.80, 327.00, 345.20, 363.30, 381.50, 399.70, 417.80, 436.00,
                                 454.20, 472.30, 490.50, 508.70, 526.80, 545.00, 563.20, 581.30 };
-
+        
         public PayrollCat_Function()
         {
             InitializeComponent();
@@ -258,12 +258,12 @@ namespace DSAL01E_Lesson2_Activity_Bautista
 
         private void PrintPayslip_Click(object sender, EventArgs e)
         {
-            PrintExample6 printForm = new PrintExample6();
-            foreach (var item in payslip_view_listbox.Items)
-            {
-                printForm.priDisplaylistbox.Items.Add(item);
-            }
-            printForm.Show();
+            //codes for calling the other form connected to the current form
+            PrintExample6 print1 = new PrintExample6();
+            //codes for displaying the contents of the listbox from other form to the current form.
+            print1.priDisplaylistbox.Items.AddRange(this.payslip_view_listbox.Items);
+            //code for displaying the other form
+            print1.Show();
         }
 
         private void Calculate_Click(object sender, EventArgs e)

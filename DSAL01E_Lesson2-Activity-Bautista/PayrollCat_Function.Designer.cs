@@ -994,8 +994,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DateTimePicker paydateDatePicker;
         public System.Windows.Forms.Button Exit;
         public System.Windows.Forms.Button PreviewPayslipDetails;
         public System.Windows.Forms.Button PrintPayslip;
@@ -1018,7 +1016,6 @@
         public System.Windows.Forms.Label label33;
         public System.Windows.Forms.Label label34;
         public System.Windows.Forms.Label label35;
-        private System.Windows.Forms.ComboBox others_loanCombo;
         public System.Windows.Forms.TextBox tax_contribTxtbox;
         public System.Windows.Forms.TextBox pagibig_contribTxtbox;
         public System.Windows.Forms.TextBox philhealth_contribTxtbox;
@@ -1048,7 +1045,6 @@
         public System.Windows.Forms.TextBox hono_netincomeTxtbox;
         public System.Windows.Forms.TextBox hono_numhrsTxtbox;
         public System.Windows.Forms.TextBox hono_rateTxtbox;
-        private System.Windows.Forms.TextBox basicnetincome_Txtbox;
         public System.Windows.Forms.TextBox basic_numhrsTxtbox;
         public System.Windows.Forms.TextBox basic_rateTxtbox;
         public System.Windows.Forms.Label label20;
@@ -1085,5 +1081,8 @@
         public System.Windows.Forms.GroupBox groupBox5;
         public System.Windows.Forms.GroupBox groupBox6;
         public System.Windows.Forms.GroupBox groupBox7;
+        public System.Windows.Forms.DateTimePicker paydateDatePicker;
+        public System.Windows.Forms.ComboBox others_loanCombo;
+        public System.Windows.Forms.TextBox basicnetincome_Txtbox;
     }
 }
